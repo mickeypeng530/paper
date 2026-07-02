@@ -1,0 +1,45 @@
+name: fetch-and-push
+
+# 每天台灣時間早上 7 點跑一次(UTC 23:00)。也可手動觸發。
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+# 允許 workflow commit 回 repo(保存 paper_radar.db 的 first_seen 生命週期)
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Fetch + score
+        run: python fetch_and_score.py
+
+      - name: Enrich (Unpaywall OA)
+        run: python enrich.py
+
+      - name: Push to Firebase RTDB
+        env:
+          FIREBASE_SA_JSON: ${{ secrets.FIREBASE_SA_JSON }}
+          FIREBASE_DB_URL: ${{ secrets.FIREBASE_DB_URL }}
+        run: python push_to_rtdb.py
+
+      - name: Persist DB lifecycle
+        run: |
+          git config user.name  "paper-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add paper_radar.db papers.json || true
+          git commit -m "chore: update radar db [skip ci]" || echo "no changes"
+          git push || echo "nothing to push"

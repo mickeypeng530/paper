@@ -1,0 +1,18 @@
+# === 機密:服務帳戶金鑰,絕對不可進 repo ===
+*firebase-adminsdk*.json
+serviceAccount*.json
+*.serviceaccount.json
+
+# 注意:paper_radar.db 與 papers.json 由 GitHub Actions commit 回 repo
+#      (保存 first_seen 生命週期 + 前端不需要,但當 debug 快照),故不排除。
+
+# 本地產物
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+# 系統
+.DS_Store
+Thumbs.db

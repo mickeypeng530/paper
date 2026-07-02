@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>放射科論文雷達</title>
+<style>
+  :root{
+    --bg:#12151c; --surface:#1b1f2a; --surface2:#232838; --border:#2e3446;
+    --text:#e6e9f0; --muted:#8b93a7; --accent:#4f8cff; --accent2:#7aa2ff;
+    --good:#37c26b; --warn:#f0a53a; --bad:#e5555a; --chip:#2a3042;
+    --rec:#2d6a4f; --cand:#3a3f2d;
+  }
+  :root[data-theme="light"]{
+    --bg:#f4f6fb; --surface:#ffffff; --surface2:#eef1f7; --border:#d9deea;
+    --text:#1a1e28; --muted:#68708a; --accent:#2b6cff; --accent2:#1c4fd0;
+    --good:#1f9d57; --warn:#c9821f; --bad:#d23b40; --chip:#e6eaf3;
+    --rec:#c9ead6; --cand:#eef0d8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,"Noto Sans TC",sans-serif;
+       background:var(--bg);color:var(--text);line-height:1.5;-webkit-text-size-adjust:100%}
+  a{color:var(--accent2);text-decoration:none}
+  a:hover{text-decoration:underline}
+  button{font-family:inherit;cursor:pointer}
+
+  /* ---- login ---- */
+  #login{min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:24px}
+  #login h1{font-size:1.6rem;margin:0}
+  #login p{color:var(--muted);margin:0;text-align:center}
+  .gbtn{background:var(--accent);color:#fff;border:0;border-radius:10px;padding:12px 22px;font-size:1rem;font-weight:600}
+
+  /* ---- app shell ---- */
+  #app{display:none;max-width:1000px;margin:0 auto;padding:0 14px 60px}
+  header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--border);
+         padding:10px 0;margin-bottom:12px}
+  .htop{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .htop h1{font-size:1.15rem;margin:0;flex:1}
+  .meta{color:var(--muted);font-size:.8rem}
+  .iconbtn{background:var(--surface2);border:1px solid var(--border);color:var(--text);
+           border-radius:8px;padding:6px 10px;font-size:.85rem}
+
+  /* ---- filters ---- */
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+  .chip{background:var(--chip);border:1px solid var(--border);color:var(--muted);
+        border-radius:999px;padding:4px 12px;font-size:.82rem;user-select:none}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px;font-size:.85rem}
+  .toolbar select,.toolbar label{background:var(--surface2);border:1px solid var(--border);color:var(--text);
+        border-radius:8px;padding:5px 9px}
+  .toolbar label{display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+
+  /* ---- cards ---- */
+  .stats{color:var(--muted);font-size:.82rem;margin:10px 2px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;
+        padding:14px;margin-bottom:10px;display:flex;gap:12px}
+  .card.read{opacity:.55}
+  .scorebox{flex:0 0 44px;display:flex;flex-direction:column;align-items:center;gap:3px}
+  .score{font-size:1.3rem;font-weight:800;line-height:1}
+  .catbadge{font-size:.62rem;padding:2px 5px;border-radius:5px;white-space:nowrap}
+  .cat-recommended{background:var(--rec)}
+  .cat-candidate{background:var(--cand)}
+  .body{flex:1;min-width:0}
+  .title{font-size:1rem;font-weight:650;margin:0 0 4px}
+  .sub{color:var(--muted);font-size:.8rem;margin-bottom:6px}
+  .authors{color:var(--muted);font-size:.78rem;margin-bottom:6px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px}
+  .tag{font-size:.68rem;background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:1px 6px;color:var(--muted)}
+  .tag.neg{color:var(--bad)}
+  .badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px;font-size:.75rem}
+  .oa{color:var(--good);font-weight:600}
+  .new{color:var(--warn);font-weight:700}
+  .actions{display:flex;gap:6px;flex-wrap:wrap}
+  .act{background:var(--surface2);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:5px 10px;font-size:.8rem}
+  .act.on-good{background:var(--good);border-color:var(--good);color:#fff}
+  .act.on-bad{background:var(--bad);border-color:var(--bad);color:#fff}
+  .act.on-warn{background:var(--warn);border-color:var(--warn);color:#111}
+  .empty{text-align:center;color:var(--muted);padding:50px 0}
+
+  @media (max-width:600px){
+    .card{padding:12px;gap:9px}
+    .scorebox{flex-basis:38px}
+    .title{font-size:.95rem}
+    .htop h1{font-size:1rem}
+  }
+</style>
+</head>
+<body>
+
+<div id="login">
+  <h1>📡 放射科論文雷達</h1>
+  <p>IR / MSK / Spine 個人論文追蹤<br>請用授權帳號登入</p>
+  <button class="gbtn" id="signin">以 Google 登入</button>
+  <p id="loginerr" style="color:var(--bad)"></p>
+</div>
+
+<div id="app">
+  <header>
+    <div class="htop">
+      <h1>📡 放射科論文雷達</h1>
+      <span class="meta" id="updated"></span>
+      <button class="iconbtn" id="theme">🌓</button>
+      <button class="iconbtn" id="signout">登出</button>
+    </div>
+    <div class="chips" id="topicChips"></div>
+    <div class="toolbar">
+      <label><input type="checkbox" id="hideRead" checked> 隱藏已讀</label>
+      <select id="sort">
+        <option value="score">依分數</option>
+        <option value="date">依日期</option>
+      </select>
+      <select id="minScore">
+        <option value="1">全部(≥1)</option>
+        <option value="3" selected>推薦(≥3)</option>
+        <option value="5">高分(≥5)</option>
+      </select>
+      <label><input type="checkbox" id="flaggedOnly"> 只看🚩</label>
+    </div>
+  </header>
+
+  <div class="stats" id="stats"></div>
+  <div id="list"></div>
+</div>
+
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged }
+  from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+import { getDatabase, ref, onValue, update }
+  from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+
+// ============================================================================
+// ⚠️ 填入你 income 專案的 web 設定(從 income 前端 index.html 複製 firebaseConfig)。
+//    apiKey / appId 是公開值(安全靠 RTDB rules),可直接貼。
+//    databaseURL 請確認區域正確(income 若非預設區域要改)。
+// ============================================================================
+const firebaseConfig = {
+  apiKey: "PASTE_FROM_INCOME",
+  authDomain: "income-41a40.firebaseapp.com",
+  databaseURL: "https://income-41a40-default-rtdb.firebaseio.com",
+  projectId: "income-41a40",
+  appId: "PASTE_FROM_INCOME"
+};
+const ALLOWED_EMAIL = "deer530530@gmail.com";
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getDatabase(app);
+
+// ---- state ----
+const state = {
+  uid:null, feed:null, userState:{},
+  topics:{}, // group -> on/off
+  unsub:[]
+};
+
+// safeKey:item_id 含 . / : 等 RTDB 非法字元,轉底線後才能當 key
+const safeKey = id => id.replace(/[.#$/\[\]:]/g,"_");
+
+// ---- theme ----
+const themeInit = localStorage.getItem("pr-theme") || "dark";
+if(themeInit==="light") document.documentElement.setAttribute("data-theme","light");
+document.getElementById("theme").onclick = ()=>{
+  const next = document.documentElement.getAttribute("data-theme")==="light" ? "dark" : "light";
+  if(next==="light") document.documentElement.setAttribute("data-theme","light");
+  else document.documentElement.removeAttribute("data-theme");
+  localStorage.setItem("pr-theme", next);
+};
+
+// ---- auth ----
+document.getElementById("signin").onclick = ()=>{
+  signInWithPopup(auth, new GoogleAuthProvider()).catch(e=>{
+    document.getElementById("loginerr").textContent = "登入失敗:"+e.message;
+  });
+};
+document.getElementById("signout").onclick = ()=> signOut(auth);
+
+onAuthStateChanged(auth, user=>{
+  // 清掉舊 listener,避免切帳號時洩漏/重複觸發
+  state.unsub.forEach(u=>u()); state.unsub=[];
+  if(user && user.email===ALLOWED_EMAIL){
+    state.uid = user.uid;
+    document.getElementById("login").style.display="none";
+    document.getElementById("app").style.display="block";
+    subscribe();
+  }else{
+    state.uid=null;
+    document.getElementById("app").style.display="none";
+    document.getElementById("login").style.display="flex";
+    if(user){ // 登入了但非授權 email
+      document.getElementById("loginerr").textContent="此帳號無權限";
+      signOut(auth);
+    }
+  }
+});
+
+// ---- data listeners ----
+function subscribe(){
+  const fRef = ref(db,"paperRadar/feed");
+  const u1 = onValue(fRef, snap=>{ state.feed = snap.val(); initTopics(); render(); },
+                     err=>console.error("feed read fail",err));
+  const usRef = ref(db,"paperRadar/userState/"+state.uid);
+  const u2 = onValue(usRef, snap=>{ state.userState = snap.val()||{}; render(); },
+                     err=>console.error("userState read fail",err));
+  state.unsub.push(()=>u1(), ()=>u2());
+}
+
+// ---- topic chips ----
+function initTopics(){
+  if(!state.feed || !state.feed.topic_groups) return;
+  const box = document.getElementById("topicChips");
+  if(box.dataset.done) return;             // 只建一次
+  box.dataset.done="1";
+  for(const [g,info] of Object.entries(state.feed.topic_groups)){
+    if(!(g in state.topics)) state.topics[g] = info.default_on!==false;
+    const c = document.createElement("span");
+    c.className="chip"+(state.topics[g]?" on":"");
+    c.textContent=info.label;
+    c.onclick=()=>{ state.topics[g]=!state.topics[g]; c.classList.toggle("on"); render(); };
+    box.appendChild(c);
+  }
+}
+
+// ---- write actions (race-guard:只 update 單一欄位,不覆蓋整物件) ----
+function setField(paper, field, value){
+  const k = safeKey(paper.item_id);
+  const path = "paperRadar/userState/"+state.uid+"/"+k;
+  update(ref(db,path), { [field]:value, ts:new Date().toISOString(),
+                          title:paper.title, doi:paper.doi||"" })
+    .catch(e=>console.error("write fail",e));
+}
+
+// ---- render ----
+const $ = id=>document.getElementById(id);
+["hideRead","sort","minScore","flaggedOnly"].forEach(id=> $(id).onchange=render);
+
+function render(){
+  if(!state.feed){ $("list").innerHTML='<div class="empty">載入中…</div>'; return; }
+  $("updated").textContent = "更新:"+(state.feed.updated||"—");
+
+  const hideRead = $("hideRead").checked;
+  const flaggedOnly = $("flaggedOnly").checked;
+  const minScore = +$("minScore").value;
+  const sortBy = $("sort").value;
+
+  let papers = (state.feed.papers||[]).filter(p=>{
+    if(state.topics[p.group]===false) return false;
+    if(p.score < minScore) return false;
+    const us = state.userState[safeKey(p.item_id)]||{};
+    if(hideRead && us.read) return false;
+    if(flaggedOnly && !us.flag) return false;
+    return true;
+  });
+  papers.sort((a,b)=> sortBy==="date"
+    ? (b.pub_date||"").localeCompare(a.pub_date||"")
+    : (b.score-a.score) || (b.pub_date||"").localeCompare(a.pub_date||""));
+
+  const totalUnread = (state.feed.papers||[]).filter(p=>!(state.userState[safeKey(p.item_id)]||{}).read).length;
+  $("stats").textContent = `顯示 ${papers.length} 篇 · 未讀 ${totalUnread} · 資料庫共 ${state.feed.counts?.exported??"?"} 篇`;
+
+  if(!papers.length){ $("list").innerHTML='<div class="empty">沒有符合條件的論文 🎉</div>'; return; }
+
+  $("list").innerHTML = papers.map(p=>card(p)).join("");
+  // bind actions
+  papers.forEach(p=>{
+    const k = safeKey(p.item_id);
+    const us = state.userState[k]||{};
+    const el = document.getElementById("c-"+k);
+    if(!el) return;
+    el.querySelector(".a-read").onclick = ()=> setField(p,"read",!us.read);
+    el.querySelector(".a-up").onclick   = ()=> setField(p,"vote", us.vote===1?0:1);
+    el.querySelector(".a-down").onclick = ()=> setField(p,"vote", us.vote===-1?0:-1);
+    el.querySelector(".a-flag").onclick = ()=> setField(p,"flag",!us.flag);
+  });
+}
+
+function esc(s){ return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function card(p){
+  const k = safeKey(p.item_id);
+  const us = state.userState[k]||{};
+  const tags = (p.tags||[]).map(t=>{
+    const neg = t.startsWith("neg:")||t.startsWith("penalty:");
+    return `<span class="tag${neg?" neg":""}">${esc(t)}</span>`;
+  }).join("");
+  const oa = (p.oa_status && p.oa_status!=="closed" && p.oa_pdf_url)
+    ? `<a class="oa" href="${esc(p.oa_pdf_url)}" target="_blank" rel="noopener">🟢 OA 全文</a>` : "";
+  const isNew = p.isNew ? `<span class="new">● NEW</span>` : "";
+  const catCn = p.category==="recommended"?"推薦":"候選";
+  return `<div class="card ${us.read?"read":""}" id="c-${k}">
+    <div class="scorebox">
+      <span class="score">${p.score}</span>
+      <span class="catbadge cat-${p.category}">${catCn}</span>
+    </div>
+    <div class="body">
+      <div class="title"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></div>
+      <div class="sub">${esc(p.source_name)} · ${esc(p.pub_date||"")}</div>
+      <div class="authors">${esc(p.authors)}</div>
+      <div class="tags">${tags}</div>
+      <div class="badges">${oa} ${isNew}</div>
+      <div class="actions">
+        <button class="act a-read ${us.read?"on-good":""}">${us.read?"✓ 已讀":"標已讀"}</button>
+        <button class="act a-up ${us.vote===1?"on-good":""}">👍</button>
+        <button class="act a-down ${us.vote===-1?"on-bad":""}">👎</button>
+        <button class="act a-flag ${us.flag?"on-warn":""}">🚩</button>
+      </div>
+    </div>
+  </div>`;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+{
+  "version": "1.0-rad",
+  "updated": "2026-07-03",
+  "thresholds": {
+    "recommend": 3,
+    "candidate": 1
+  },
+  "random_picks": 2,
+  "positive": [
+    {
+      "weight": 3,
+      "tag": "MSK embolization (TAME/GAE)",
+      "base_weight": 3,
+      "keywords": [
+        "genicular artery embolization",
+        "GAE",
+        "transarterial microembolization",
+        "transcatheter arterial microembolization",
+        "trans-arterial micro-embolization",
+        "adhesive capsulitis embolization",
+        "musculoskeletal embolization",
+        "imipenem cilastatin",
+        "abnormal neovessel"
+      ]
+    },
+    {
+      "weight": 3,
+      "tag": "spine intervention",
+      "base_weight": 3,
+      "keywords": [
+        "transforaminal epidural",
+        "epidural steroid injection",
+        "selective nerve root block",
+        "facet joint injection",
+        "medial branch block",
+        "vertebroplasty",
+        "kyphoplasty",
+        "sacroiliac joint injection",
+        "cementoplasty",
+        "spinal injection"
+      ]
+    },
+    {
+      "weight": 3,
+      "tag": "IR technique",
+      "base_weight": 3,
+      "keywords": [
+        "cone-beam CT",
+        "microcatheter",
+        "n-butyl cyanoacrylate",
+        "NBCA",
+        "onyx",
+        "particle embolization",
+        "embolic agent",
+        "radiofrequency ablation",
+        "cryoablation",
+        "microwave ablation",
+        "percutaneous ablation"
+      ]
+    },
+    {
+      "weight": 2,
+      "tag": "vascular IR",
+      "base_weight": 2,
+      "keywords": [
+        "prostatic artery embolization",
+        "uterine fibroid embolization",
+        "uterine artery embolization",
+        "bronchial artery embolization",
+        "TACE",
+        "transarterial chemoembolization",
+        "yttrium-90",
+        "radioembolization",
+        "portal vein embolization",
+        "TIPS",
+        "gastroduodenal artery"
+      ]
+    },
+    {
+      "weight": 2,
+      "tag": "MSK tumor/lesion ablation",
+      "base_weight": 2,
+      "keywords": [
+        "osteoid osteoma",
+        "bone metastasis",
+        "soft tissue tumor",
+        "aneurysmal bone cyst",
+        "desmoid",
+        "vertebral metastasis",
+        "painful bone metastasis"
+      ]
+    },
+    {
+      "weight": 2,
+      "tag": "MSK diagnostic imaging",
+      "base_weight": 2,
+      "keywords": [
+        "MR arthrography",
+        "rotator cuff",
+        "labral tear",
+        "cartilage MRI",
+        "dual-energy CT gout",
+        "musculoskeletal ultrasound",
+        "ultrasound-guided injection",
+        "sonographic"
+      ]
+    },
+    {
+      "weight": 2,
+      "tag": "pain intervention",
+      "base_weight": 2,
+      "keywords": [
+        "pulsed radiofrequency",
+        "nerve block",
+        "neurolysis",
+        "spinal cord stimulation",
+        "dorsal root ganglion",
+        "peripheral nerve stimulation",
+        "celiac plexus",
+        "geniculate nerve ablation"
+      ]
+    },
+    {
+      "weight": 1,
+      "tag": "general diagnostic radiology",
+      "base_weight": 1,
+      "keywords": [
+        "deep learning",
+        "radiomics",
+        "diagnostic accuracy",
+        "CT angiography",
+        "MRI protocol",
+        "contrast-enhanced",
+        "incidental finding"
+      ]
+    },
+    {
+      "weight": 1,
+      "tag": "osteoarthritis / joint",
+      "base_weight": 1,
+      "keywords": [
+        "knee osteoarthritis",
+        "hip osteoarthritis",
+        "joint effusion",
+        "synovitis",
+        "tendinopathy",
+        "plantar fasciitis"
+      ]
+    }
+  ],
+  "negative": [
+    {
+      "weight": -3,
+      "tag": "basic science",
+      "keywords": [
+        "animal model",
+        "rat model",
+        "mouse model",
+        "in vitro",
+        "cell culture",
+        "molecular mechanism",
+        "signaling pathway"
+      ]
+    },
+    {
+      "weight": -2,
+      "tag": "scale development",
+      "keywords": [
+        "scale validation",
+        "questionnaire development",
+        "psychometric properties",
+        "measurement properties",
+        "cross-cultural validation"
+      ]
+    },
+    {
+      "weight": -2,
+      "tag": "education/admin",
+      "keywords": [
+        "education survey",
+        "curriculum development",
+        "teaching method",
+        "trainee preparedness",
+        "residency training",
+        "burnout"
+      ]
+    },
+    {
+      "weight": -1,
+      "tag": "health economics",
+      "keywords": [
+        "cost-effectiveness",
+        "health economics",
+        "utilization rate",
+        "insurance claims"
+      ]
+    },
+    {
+      "weight": -1,
+      "tag": "qualitative",
+      "keywords": [
+        "qualitative study",
+        "phenomenological",
+        "grounded theory",
+        "thematic analysis"
+      ]
+    },
+    {
+      "weight": -1,
+      "tag": "off-domain oncology screening",
+      "keywords": [
+        "mammography screening",
+        "lung cancer screening",
+        "colorectal screening"
+      ]
+    }
+  ],
+  "negative_exceptions": {
+    "scale development": [
+      "clinical decision",
+      "treatment selection"
+    ],
+    "off-domain oncology screening": [
+      "embolization",
+      "ablation",
+      "biopsy"
+    ]
+  },
+  "design_bonus": {
+    "randomized controlled": 1,
+    "RCT": 1,
+    "systematic review": 1,
+    "meta-analysis": 1,
+    "guideline": 1,
+    "consensus": 1
+  },
+  "design_penalty_context": {
+    "applies_to_tags": [
+      "MSK embolization (TAME/GAE)"
+    ],
+    "patterns": [
+      "case report"
+    ],
+    "penalty": -1
+  },
+  "bonus_authors": [
+    "Okuno, Yuji",
+    "Little, Mark W",
+    "Bagla, Sandeep"
+  ]
+}

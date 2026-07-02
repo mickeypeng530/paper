@@ -1,0 +1,77 @@
+# ============================================================================
+# paper-radar config — 放射科論文雷達(IR / MSK / Spine)
+# 來源:高分綜合刊 + IR/MSK 期刊 + 主題式 PubMed search
+# fork 自 drpwchen/paper-radar,後端改為 Firebase RTDB + GitHub Actions
+# ============================================================================
+
+site:
+  domain: mickeypeng530.github.io
+  title: 放射科論文雷達
+  private: true
+
+# --- 全文加值層(每篇 DOI 跑 Unpaywall)------------------------------------
+enrich:
+  unpaywall:
+    enabled: true
+    email: deer530530@gmail.com     # Unpaywall API 必填(聯絡用 email)
+  inst_sfx:
+    enabled: false                  # 無機構 SFX,關閉。要開再填 base
+    base: "https://your-institution-sfx.example.com/SID"
+    sid: Claude
+
+defaults:
+  limit: 20                         # 每 feed 每次抓最新 N 篇
+  new_days: 7                       # NEW 標籤視窗
+
+# --- 主題訂閱開關(前端頂部勾選;對應 interest_model 分組)-------------------
+topic_groups:
+  general_rad:  { label: "綜合放射(高分刊)",   default_on: true }
+  ir_msk:       { label: "IR — MSK 栓塞/介入",  default_on: true }
+  ir_vascular:  { label: "IR — 血管介入",        default_on: true }
+  spine:        { label: "脊椎介入 / 注射",      default_on: true }
+  msk_dx:       { label: "MSK 診斷影像",         default_on: true }
+
+# ============================================================================
+# FEEDS
+#   type: rss           → 直接抓 RSS URL
+#   type: pubmed_search → E-utilities 跑 term(最穩,LWW/Springer RSS 常壞)
+# ============================================================================
+feeds:
+
+  # ---- 綜合高分刊 ----
+  - { key: radiology,     group: general_rad, type: pubmed_search, name: "Radiology",          term: '"Radiology"[ta]' }
+  - { key: radiographics, group: general_rad, type: pubmed_search, name: "RadioGraphics",      term: '"Radiographics"[ta]' }
+  - { key: ajr,           group: general_rad, type: pubmed_search, name: "AJR",                term: '"AJR Am J Roentgenol"[ta]' }
+  - { key: eur_radiol,    group: general_rad, type: pubmed_search, name: "European Radiology", term: '"Eur Radiol"[ta]' }
+  - { key: insights_img,  group: general_rad, type: pubmed_search, name: "Insights into Imaging", term: '"Insights Imaging"[ta]' }
+
+  # ---- IR 血管/介入期刊 ----
+  - { key: jvir,          group: ir_vascular, type: pubmed_search, name: "JVIR",               term: '"J Vasc Interv Radiol"[ta]' }
+  - { key: cvir,          group: ir_vascular, type: pubmed_search, name: "CVIR (Cardiovasc Intervent Radiol)", term: '"Cardiovasc Intervent Radiol"[ta]' }
+
+  # ---- IR MSK 栓塞(TAME / GAE)主題型 ----
+  - key: msk_embolization
+    group: ir_msk
+    type: pubmed_search
+    name: "MSK 栓塞 / TAME / GAE"
+    term: '(("Embolization, Therapeutic"[Mesh] OR embolization OR embolisation) AND (musculoskeletal OR "genicular artery" OR "adhesive capsulitis" OR "frozen shoulder" OR tendinopathy OR "knee osteoarthritis" OR "lateral epicondylitis" OR "plantar fasciitis")) OR "transcatheter arterial microembolization" OR "trans-arterial micro-embolization"'
+  - key: okuno
+    group: ir_msk
+    type: pubmed_search
+    name: "Okuno Y (TAME 作者)"
+    term: '"Okuno, Yuji"[Full Author Name] OR (Okuno Y[Author] AND (embolization OR musculoskeletal OR genicular))'
+
+  # ---- 脊椎介入 / 注射 主題型 ----
+  - key: spine_injection
+    group: spine
+    type: pubmed_search
+    name: "脊椎注射 / 介入"
+    term: '("Injections, Epidural"[Mesh] OR "transforaminal" OR "epidural steroid" OR "selective nerve root" OR "facet joint injection" OR "medial branch block" OR "vertebroplasty" OR "kyphoplasty" OR "sacroiliac joint injection") AND (image-guided OR fluoroscop* OR CT-guided OR ultrasound-guided)'
+
+  # ---- MSK 診斷影像 ----
+  - { key: skeletal_radiol, group: msk_dx, type: pubmed_search, name: "Skeletal Radiology", term: '"Skeletal Radiol"[ta]' }
+  - key: msk_imaging
+    group: msk_dx
+    type: pubmed_search
+    name: "MSK 影像主題"
+    term: '(musculoskeletal OR "bone tumor" OR "soft tissue tumor" OR arthrography OR "MR arthrography" OR "cartilage imaging") AND ("Magnetic Resonance Imaging"[Mesh] OR MRI OR "computed tomography" OR ultrasound)'
