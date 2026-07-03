@@ -47,11 +47,11 @@ def main():
     payload = json.load(open(args.infile, encoding="utf-8"))
 
     firebase_admin.initialize_app(load_credentials(), {"databaseURL": db_url})
-    ref = db.reference("paperRadar/feed")
+    ref = db.reference("paperRadar/papers")
     ref.set(payload)
 
     n = len(payload.get("papers", []))
-    print(f"✓ 推送 {n} 篇 → {db_url}/paperRadar/feed  (updated={payload.get('updated')})")
+    print(f"✓ 推送 {n} 篇 → {db_url}/paperRadar/papers  (updated={payload.get('updated')})")
 
 
 if __name__ == "__main__":

@@ -196,9 +196,11 @@ onAuthStateChanged(auth, user=>{
 
 // ---- data listeners ----
 function subscribe(){
-  const fRef = ref(db,"paperRadar/feed");
+  const fRef = ref(db,"paperRadar/papers");
   const u1 = onValue(fRef, snap=>{ state.feed = snap.val(); initTopics(); render(); },
-                     err=>console.error("feed read fail",err));
+                     err=>{ console.error("feed read fail",err);
+                            document.getElementById("list").innerHTML=
+                              '<div class="empty">讀取失敗:'+esc(err.message)+'<br>(多半是 RTDB rules 未含 paperRadar/papers)</div>'; });
   const usRef = ref(db,"paperRadar/userState/"+state.uid);
   const u2 = onValue(usRef, snap=>{ state.userState = snap.val()||{}; render(); },
                      err=>console.error("userState read fail",err));

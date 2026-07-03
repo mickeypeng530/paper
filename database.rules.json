@@ -7,7 +7,7 @@
       }
     },
     "paperRadar": {
-      "feed": {
+      "papers": {
         ".read":  "auth.token.email === 'deer530530@gmail.com'",
         ".write": false
       },
