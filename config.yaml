@@ -15,9 +15,7 @@ enrich:
     enabled: true
     email: deer530530@gmail.com     # Unpaywall API 必填(聯絡用 email)
   inst_sfx:
-    enabled: false                  # 無機構 SFX,關閉。要開再填 base
-    base: "https://your-institution-sfx.example.com/SID"
-    sid: Claude
+    enabled: false                  # 無機構 SFX,關閉。要開再填 base + sid
 
 defaults:
   limit: 20                         # 每 feed 每次抓最新 N 篇

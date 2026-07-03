@@ -64,6 +64,8 @@
   .title{font-size:1rem;font-weight:650;margin:0 0 4px}
   .sub{color:var(--muted);font-size:.8rem;margin-bottom:6px}
   .authors{color:var(--muted);font-size:.78rem;margin-bottom:6px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .summary{background:var(--surface2);border-left:3px solid var(--accent);border-radius:6px;
+        padding:7px 10px;margin-bottom:8px;font-size:.85rem;line-height:1.55}
   .tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px}
   .tag{font-size:.68rem;background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:1px 6px;color:var(--muted)}
   .tag.neg{color:var(--bad)}
@@ -289,6 +291,9 @@ function card(p){
     ? `<a class="oa" href="${esc(p.oa_pdf_url)}" target="_blank" rel="noopener">🟢 OA 全文</a>` : "";
   const isNew = p.isNew ? `<span class="new">● NEW</span>` : "";
   const catCn = p.category==="recommended"?"推薦":"候選";
+  const dates = [p.pub_date?`出版 ${esc(p.pub_date)}`:"", p.first_seen?`收錄 ${esc(p.first_seen)}`:""]
+                  .filter(Boolean).join(" · ");
+  const summary = p.summary ? `<div class="summary">📝 ${esc(p.summary)}</div>` : "";
   return `<div class="card ${us.read?"read":""}" id="c-${k}">
     <div class="scorebox">
       <span class="score">${p.score}</span>
@@ -296,8 +301,9 @@ function card(p){
     </div>
     <div class="body">
       <div class="title"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></div>
-      <div class="sub">${esc(p.source_name)} · ${esc(p.pub_date||"")}</div>
+      <div class="sub">${esc(p.source_name)} · ${dates}</div>
       <div class="authors">${esc(p.authors)}</div>
+      ${summary}
       <div class="tags">${tags}</div>
       <div class="badges">${oa} ${isNew}</div>
       <div class="actions">

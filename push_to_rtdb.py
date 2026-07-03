@@ -48,10 +48,22 @@ def main():
 
     firebase_admin.initialize_app(load_credentials(), {"databaseURL": db_url})
     ref = db.reference("paperRadar/papers")
+
+    # 保留既有摘要:摘要是 Claude 手動 on-demand 寫入 summary 欄的,
+    # 每日 cron 重推時不能洗掉。用 item_id 對回去。
+    existing = ref.get() or {}
+    old_sum = {p.get("item_id"): p.get("summary")
+               for p in (existing.get("papers") or []) if p.get("summary")}
+    kept = 0
+    for p in payload.get("papers", []):
+        s = old_sum.get(p.get("item_id"))
+        if s:
+            p["summary"] = s; kept += 1
+
     ref.set(payload)
 
     n = len(payload.get("papers", []))
-    print(f"✓ 推送 {n} 篇 → {db_url}/paperRadar/papers  (updated={payload.get('updated')})")
+    print(f"✓ 推送 {n} 篇 → {db_url}/paperRadar/papers  (updated={payload.get('updated')}, 保留摘要 {kept})")
 
 
 if __name__ == "__main__":
