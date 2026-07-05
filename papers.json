@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02 23:59",
+  "updated": "2026-07-05 17:13",
   "topic_groups": {
     "general_rad": {
       "label": "綜合放射(高分刊)",
@@ -23,8 +23,8 @@
     }
   },
   "counts": {
-    "total_db": 244,
-    "exported": 105
+    "total_db": 277,
+    "exported": 117
   },
   "papers": [
     {
@@ -53,7 +53,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2024.04.018",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -83,7 +83,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.ejrad.2026.112968",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -113,7 +113,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04502-7",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -143,7 +143,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04504-5",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -172,7 +172,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2106/JBJS.ST.25.00023",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -201,7 +201,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04188-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -230,7 +230,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.ostima.2025.100271",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -260,7 +260,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fradi.2026.1753020",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -288,7 +288,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fonc.2026.1715384",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -317,7 +317,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2022.08.016",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -346,7 +346,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2025.02.031",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -374,7 +374,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04243-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -402,7 +402,35 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.253312",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.1007/s00270-026-04522-3",
+      "title": "Stereotactic Microwave Ablation of Early-Stage Hepatocellular Carcinoma in Patients with Transjugular Intrahepatic Portosystemic Shunts: A Matched Case-Control Study.",
+      "source": "cvir",
+      "source_name": "CVIR (Cardiovasc Intervent Radiol)",
+      "group": "ir_vascular",
+      "authors": "Zhang L, Strotzer Q, Kupke L, Mayr V, Hiernickel G, Brandenstein M, Luerken L, Jage S, Scharf G, Stroszczynski C, Einspieler I",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42397406/",
+      "doi": "10.1007/s00270-026-04522-3",
+      "abstract": "To assess safety and outcomes of stereotactic CT-guided microwave ablation (MWA) for hepatocellular carcinoma (HCC) in patients with transjugular intrahepatic portosystemic shunts (TIPS) versus a matched control group without TIPS. Retrospective matched case-control study of cirrhotic patients with HCC treated with stereotactic CT-guided MWA. TIPS patients were matched 1:1 to controls using hierarchical matching based on Child-Pugh class, number of treated tumors, MELD score, tumor diameter, and ablation date. Primary endpoints were primary technique efficacy (PTE), local tumor progression (LTP), 30-day complications, and 30-day all-cause mortality. Secondary endpoints were 12-month Kaplan-Meier estimates for progression-free survival (PFS), hepatic decompensation-free survival (HDFS), and overall survival (OS), compared using log-rank tests. 46 patients (23 TIPS, 23 controls) with 62 index lesions were analyzed. PTE was achieved in 30/31 lesions (96.8%) in both groups. Among lesions with PTE, LTP occurred in 1/30 lesions (3.3%) in the TIPS group and 0/30 lesions (0%) in controls. Within 30 days, two major complications occurred in the TIPS group and one in the control group; no 30-day deaths occurred. Observed 12-month estimates did not differ significantly between groups for PFS (52.4% vs. 46.0%, p = 0.876), HDFS (71.8% vs. 76.9%, p = 0.519), or OS (91.1% vs. 90.0%, p = 0.903). Child-Pugh A was associated with higher HDFS than Child-Pugh B (95.8% vs. 50.2%, p = 0.001). Stereotactic CT-guided MWA of early-stage HCC appears feasible in carefully selected patients with TIPS, warranting further evaluation in larger cohorts. 3b.",
+      "pub_date": "2026-Jul-03",
+      "score": 5,
+      "tags": [
+        "IR technique",
+        "vascular IR"
+      ],
+      "category": "recommended",
+      "oa_status": "hybrid",
+      "oa_pdf_url": "https://link.springer.com/content/pdf/10.1007/s00270-026-04522-3.pdf",
+      "oa_first_date": "2026-07-05",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -431,7 +459,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1177/23259671251337093",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -460,7 +488,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.ostima.2025.100376",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -488,7 +516,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.clinimag.2026.110877",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -516,9 +544,37 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2026.108926",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
+    },
+    {
+      "item_id": "doi:10.4329/wjr.120315",
+      "title": "Multimodality imaging considerations for genicular artery embolization in knee osteoarthritis.",
+      "source": "msk_embolization",
+      "source_name": "MSK 栓塞 / TAME / GAE",
+      "group": "ir_msk",
+      "authors": "Singh R, Makary M",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42395103/",
+      "doi": "10.4329/wjr.120315",
+      "abstract": "Genicular artery embolization (GAE) describes a minimally invasive, catheter-directed therapy that targets abnormal hypervascular synovium and periarticular neovessels in patients with symptomatic knee osteoarthritis (OA), particularly those with inflammation-predominant disease who are poor surgical candidates or wish to defer arthroplasty. As clinical adoption expands, pre-, intra-, and post-procedure imaging has become increasingly relevant to both diagnostic and interventional radiologists. In practical terms, inflammation-predominant disease refers to knees with prominent synovitis-related magnetic resonance imaging (MRI) findings despite less advanced irreversible structural destruction, whereas structure-predominant disease is characterized by extensive cartilage loss, large bone marrow lesions, meniscal maceration, and advanced radiographic degeneration. Although no prospectively validated imaging cutoff exists for routine GAE candidate selection, current studies suggest that moderate-to-large effusion-synovitis (the combined appearance of joint fluid and synovial thickening on non-contrast MRI) (grade 2-3), greater overall MRI lesion burden (≥ 4 abnormalities), and extensive full-thickness cartilage loss may help distinguish these phenotypes. Synovial enhancement and effusion-synovitis on MRI are the findings most consistently expected to improve, whereas structural hallmarks of OA often persist and may be misinterpreted as treatment failure. Early marrow or subchondral signal alterations have also been reported after embolization and require cautious follow-up interpretation. This review summarizes contemporary evidence on pre-, intra-, and post-procedure imaging, semiquantitative MRI scoring systems, and common post-GAE interpretive pitfalls.",
+      "pub_date": "2026-Jun-28",
+      "score": 4,
+      "tags": [
+        "MSK embolization (TAME/GAE)",
+        "osteoarthritis / joint"
+      ],
+      "category": "recommended",
+      "oa_status": "gold",
+      "oa_pdf_url": "https://doi.org/10.4329/wjr.120315",
+      "oa_first_date": "2026-07-05",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": true
     },
     {
       "item_id": "doi:10.52965/001c.163034",
@@ -544,7 +600,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.52965/001c.163034",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -572,7 +628,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2147/DDDT.S601168",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -600,7 +656,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.knee.2022.12.008",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -628,7 +684,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.fas.2024.07.009",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -656,7 +712,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04144-1",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -684,7 +740,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2026.108803",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -712,7 +768,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00330-026-12663-9",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -740,7 +796,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3390/healthcare14111562",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -768,7 +824,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1093/jscr/rjag439",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -796,7 +852,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04518-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -824,9 +880,145 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250183",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1016/j.recot.2026.07.009",
+      "title": "[Translated article] Exploratory study of the efficacy and safety of treatment with high-low molecular weight hybrid hyaluronic acid in patients with plantar fasciitis: One-year follow-up.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Fernández Reinales Á, Poggio Cano D, García Elvira R",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42398577/",
+      "doi": "10.1016/j.recot.2026.07.009",
+      "abstract": "Plantar fasciitis (PF) is a common musculoskeletal injury that can occur in adults of all ages and activity levels. This condition accounts for more than 1 million medical visits annually in the United States alone. Despite its name, PF is considered a degenerative condition rather than a primary inflammatory disorder. It is characterized by pain in the medial part of the heel that worsens with weight-bearing activity and prolonged standing. Treatment for PF can be conservative, including stretching complemented by formal physical therapy, NSAIDs, and orthotics. If symptoms have not improved after these options, the use of injectable treatments should be considered. If symptoms persist for more than 6 months, surgical release could be considered as a last resort. Different studies have demonstrated the efficacy and safety of high molecular weight hyaluronic acid (HA) injections in the treatment of patients with PF. The objective of the study was to evaluate the efficacy and safety of treatment with hybrid high-low molecular weight hyaluronic acid (HA) in patients diagnosed with plantar fasciitis through retrospective analysis of medical records. Patient functionality was assessed using the Spanish-validated Manchester-Oxford Foot and Ankle Questionnaire (MOXFQ), and pain level was measured with the Verbal Numeric Rating Scale (VNRS), both before the procedure and after 12 months of post-treatment follow-up, in 10 patients diagnosed with PF who were administered hybrid high-low molecular weight HA (Sinovial HL® 1 ml) through ultrasound-guided injection into the plantar fascia. In all cases, the thickness of the plantar fascia was evaluated by ultrasound before the procedure and at 12 months. A significant reduction in pain assessed by the VNRS was observed when comparing baseline data to values at 12 months post-procedure (P<.001). In all cases, patients reported total absence of pain 12 months after the HA injection. Likewise, a statistically significant reduction in MOXFQ scores was observed between baseline values and those obtained at the 12-month follow-up. The mean scores decreased from 57.2 ± 4.3 points at baseline to 2.5 ± 2.8 points at 12 months, with a median difference of -55 points (IQR: -58.2 to -50.8; P=.002). Regarding the evaluation of ultrasound changes in plantar fascia thickness, the analysis revealed a statistically significant reduction at 12 months after the procedure compared to baseline measurements (median difference: -2.25 mm, IQR: -2.85 to -1.95; P=.002). The body mass index (BMI) was 27.8%, and the predominant gender was male (70%) compared to female (30%). The baseline characteristics of the patients and the results of the tests performed are shown in table 1. Ultrasound-guided infiltration with hyaluronic acid hybrid high-low molecular weight into the plantar fascia in patients with plantar fasciitis or intrafascial fiber rupture is an effective and safe treatment that maintains its positive effects for at least one year after the procedure. The use of ultrasound plays a fundamental role both at the time of infiltration and in the follow-up of the condition.",
+      "pub_date": "2026-Jul-03",
+      "score": 3,
+      "tags": [
+        "MSK diagnostic imaging",
+        "osteoarthritis / joint"
+      ],
+      "category": "recommended",
+      "oa_status": "gold",
+      "oa_pdf_url": "https://doi.org/10.1016/j.recot.2026.07.009",
+      "oa_first_date": "2026-07-05",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.3389/fsurg.2026.1864618",
+      "title": "Upper lumbar disc herniation presenting as chronic right lower abdominal pain in a patient with multilevel lumbar degeneration: a case report.",
+      "source": "spine_injection",
+      "source_name": "脊椎注射 / 介入",
+      "group": "spine",
+      "authors": "Wei M, Shi J, Dai Y, Jiao L, Li W, Sun J",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42396589/",
+      "doi": "10.3389/fsurg.2026.1864618",
+      "abstract": "Upper lumbar disc herniation (ULDH) is relatively uncommon and may present with atypical symptoms, including lower abdominal pain, which can complicate clinical diagnosis. The diagnostic challenge is even greater when multilevel lumbar degeneration is present and the symptomatic level is unclear. We report the case of a 65-year-old woman with right lower abdominal pain for more than 5 years. The pain worsened during the 3 months before admission and was accompanied by low back pain and radiating pain in the left lower limb. Repeated abdominal evaluations, including abdominal ultrasonography and gynecological and urological assessments, did not reveal any abnormality sufficient to explain her symptoms. Lumbar magnetic resonance imaging showed multilevel degenerative changes, including L2-3 disc herniation and L4-5 spinal canal stenosis with degenerative spondylolisthesis. Because the imaging findings did not fully correspond to the clinical presentation, fluoroscopy-guided right L2-3 selective nerve root block (SNRB) was performed to help identify the responsible level. After the block, the visual analogue scale (VAS) score for right lower abdominal pain decreased from 7 to 3, although the pain returned to the pre-block level 2 days later. The patient subsequently underwent right L2-3 transforaminal endoscopic lumbar discectomy (TELD), after which the VAS score for right lower abdominal pain decreased further to 2. Persistent low back pain and left lower-limb radiating pain were then treated with L4-5 posterior lumbar interbody fusion (PLIF), and the VAS score for left leg pain decreased to 2. This case suggests that radicular referred pain caused by ULDH should be considered in patients with long-standing lower abdominal pain and repeatedly negative abdominal evaluations, particularly when spinal symptoms coexist. In patients with multilevel degeneration and discordant clinical and imaging findings, SNRB may help localize the symptomatic level and support a staged, symptom-oriented surgical strategy.",
+      "pub_date": "2026",
+      "score": 3,
+      "tags": [
+        "spine intervention"
+      ],
+      "category": "recommended",
+      "oa_status": "gold",
+      "oa_pdf_url": "https://doi.org/10.3389/fsurg.2026.1864618",
+      "oa_first_date": "2026-07-05",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.1007/s00270-026-04528-x",
+      "title": "Precision of Ablation Margin Assessment After Liver Microwave Ablation: A Head-to-Head Comparison of Visual and Software-Assisted Methods.",
+      "source": "cvir",
+      "source_name": "CVIR (Cardiovasc Intervent Radiol)",
+      "group": "ir_vascular",
+      "authors": "Morisot C, Chami Khazraji I, Habouzit V, Magand N, Le Roy B, El Boukili I, Boutet C, Grange S, Grange R",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42397407/",
+      "doi": "10.1007/s00270-026-04528-x",
+      "abstract": "Minimal ablative margins (MAM) are critical for local tumour control after microwave ablation, yet their assessment remains subjective. We evaluated whether software improves the precision of ablation margin assessment after liver MWA. In this retrospective study, patients undergoing CT-guided liver MWA between January 2019 and January 2025 were included. Two radiologists (with 4 and 5 years of experience in abdominal imaging) assessed MAM in two steps: first by side-by-side visual comparison of pre- and post-ablation CT using anatomical landmarks, then with dedicated software providing semi-automatic 3D co-registration and margin quantification. Each method included two reading sessions per reader, six weeks apart. Precision was assessed using intraclass correlation coefficients (ICC), Cohen's kappa (κ) for categorical classification ( 10 mm), and Bland-Altman analysis. Sixty-seven patients with 87 liver tumours were included. Visual assessment showed poor reliability, with low intrareader agreement (ICC 0.10 and 0.33) and near-random interreader agreement (κ = - 0.10; ICC - 0.05), with limits of agreement approaching 17 mm. Software-assisted assessment improved reliability, with higher intrareader ICCs (0.54 and 0.83) and improved interreader agreement (κ = 0.38; ICC = 0.54). Interreader bias decreased from - 2.84 to + 0.91 mm, and limits of agreement narrowed to - 4.10 to + 5.92 mm (p < 0.001). The median absolute interreader difference decreased from 3.0 to 1.0 mm (p < 0.001). Software-assisted assessment improves reliability of MAM evaluation compared with visual methods, but interreader agreement remains only fair-to-moderate; further validation is required before routine clinical adoption.",
+      "pub_date": "2026-Jul-03",
+      "score": 3,
+      "tags": [
+        "IR technique"
+      ],
+      "category": "recommended",
+      "oa_status": "hybrid",
+      "oa_pdf_url": "https://link.springer.com/content/pdf/10.1007/s00270-026-04528-x.pdf",
+      "oa_first_date": "2026-07-05",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.1016/j.jvir.2026.108940",
+      "title": "Cryoablation of Abdominal Wall Endometriosis: Evidence Base Calling for Greater Awareness of this Minimally Invasive Option.",
+      "source": "jvir",
+      "source_name": "JVIR",
+      "group": "ir_vascular",
+      "authors": "Cornelis F, Razakamanantsoa L, Solomon S, Kaufman C",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42398898/",
+      "doi": "10.1016/j.jvir.2026.108940",
+      "abstract": "",
+      "pub_date": "2026-Jul-03",
+      "score": 3,
+      "tags": [
+        "IR technique"
+      ],
+      "category": "recommended",
+      "oa_status": "closed",
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1007/s00330-026-12725-y",
+      "title": "MR-guided microwave ablation of liver tumors: outcomes in local tumor control and determinants of treatment success.",
+      "source": "eur_radiol",
+      "source_name": "European Radiology",
+      "group": "general_rad",
+      "authors": "Schmidt V, Linden P, Dietrich O, Deniz S, Puhr-Westerheide D, Öcal O, Schnitzer M, Obereisenbuchner F, Kassube M, Wu M, Nardone L, Grenacher L, Maier F, Seidensticker R, Wildgruber M, Ricke J, Fabritius M, Seidensticker M",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401765/",
+      "doi": "10.1007/s00330-026-12725-y",
+      "abstract": "To evaluate local tumor control and determinants of treatment success following magnetic resonance (MR)-guided microwave ablation (MWA) of liver malignancies. This single-center retrospective study evaluated prospectively included patients undergoing MR-guided MWA between September 2021 and February 2025. Procedures were performed under general anesthesia using a 1.5-Tesla MR scanner and two MR-compatible MWA systems. Complications were assessed according to CIRSE. Technical success was defined as total lesion coverage on MR imaging one day post-ablation. Local recurrence and hepatic tumor progression were analyzed using follow-up liver MR imaging every three months. Determinants of treatment success included lesion size, tumor entity, ablation duration, MWA system, lesion and antenna conspicuity (6-point Likert scale), adjacent vascular structures, liver cirrhosis, and antenna position (central/non-central). Forty-eight liver lesions in 40 patients (median age 62.5 years, 70.0% male) were treated. MWA systems 1 and 2 were used in 33/48 (68.8%) and 15/48 lesions (31.3%), respectively. Technical success was achieved in 46/48 lesions (95.8%), with one peri-procedural complication (CIRSE grade 3, 2.5%). Mean follow-up was 21.0 ± 10.9 months, with one patient lost to follow-up. Local recurrence occurred in 4/47 lesions (8.5%), all treated with system 1, while no recurrence was observed with system 2 (p = 0.173). As the only relevant determinant of treatment success, adjacent vascular structures were associated with higher local recurrence rates (p = 0.019). No local recurrence occurred in lesions < 20 mm. MR-guided MWA of liver tumors is safe, achieving high technical success and local tumor control. Adjacent vascular structures increase the risk of local recurrence and may warrant more aggressive treatment. Question Whether MR-guided MWA provides reliable local tumor control for liver malignancies and which procedural or anatomical factors influence treatment success. Findings MR-guided MWA achieved high technical success, low complication rates, and strong local tumor control; local recurrence occurred in lesions ≥ 20 mm and with low-power MWA systems, as well as adjacent vascular structures, significantly increased risk of local recurrence. Clinical relevance Prospectively acquired single-center cohorts of MR-guided MWA with real-time position monitoring in a standardized MR workflow, highlighting the impact of technical factors and the importance of lesion selection based on device-specific ablation characteristics.",
+      "pub_date": "2026-Jul-04",
+      "score": 3,
+      "tags": [
+        "IR technique"
+      ],
+      "category": "recommended",
+      "oa_status": "hybrid",
+      "oa_pdf_url": "https://doi.org/10.1007/s00330-026-12725-y",
+      "oa_first_date": "2026-07-05",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": true
     },
     {
       "item_id": "doi:10.1016/j.mayocpiqo.2026.100734",
@@ -880,7 +1072,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05283-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -934,7 +1126,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.5137/1019-5149.JTN.49543-25.2",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -961,7 +1153,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.12200/j.issn.1003-0034.20250777",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -988,7 +1180,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fphar.2026.1801501",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1015,7 +1207,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3174/ajnr.A9280",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1042,7 +1234,7 @@
       "inst_platforms": null,
       "sfx_url": null,
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1069,7 +1261,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.22603/ssrr.2025-0359",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1096,7 +1288,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.22603/ssrr.2025-0327",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1123,7 +1315,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fsurg.2026.1800908",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1150,7 +1342,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1097/MD.0000000000049533",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1177,7 +1369,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-022-04208-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1204,7 +1396,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jse.2022.10.021",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1231,7 +1423,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04307-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1258,7 +1450,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04508-1",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1285,7 +1477,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04512-5",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1312,7 +1504,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04482-8",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1339,7 +1531,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2026.108923",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1366,7 +1558,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2026.108924",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1394,7 +1586,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.251833",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1421,7 +1613,34 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.251003",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1016/j.jvir.2026.108939",
+      "title": "CT-Based Intratumoral Artery-Like Volume for Pre-Treatment Lung Shunt Estimation in Hepatocellular Carcinoma.",
+      "source": "jvir",
+      "source_name": "JVIR",
+      "group": "ir_vascular",
+      "authors": "Kim H, Lee M, Jeong Y, Suh M, Paeng J, Joo I",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42398896/",
+      "doi": "10.1016/j.jvir.2026.108939",
+      "abstract": "To determine the clinical utility of automated 3D CT-based quantification of intratumoral artery-like volume (IAV) for the preprocedural assessment of transarterial radioembolization (TARE) eligibility by ruling out high lung shunt fraction (LSF) in patients with large hepatocellular carcinoma (HCC). This single-center retrospective study included patients with a single nodular HCC (≥5 cm) who underwent both multiphasic CT and LSF measurement (2009-2024). LSF values derived from technetium-99m macroaggregated albumin (MAA) scintigraphy. Automated 3D segmentation on arterial phase CT defined tumor and aorta; IAVs were quantified using five thresholds (65%-85% at 5% intervals) relative to mean aortic HU. IAV metrics were compared across LSF groups (≤10%, 10-20%, >20%). Receiver operating characteristic (ROC) analysis evaluated performance for LSF >10% and >20% and determined cutoffs at fixed 80% and 90% sensitivities. Of 169 patients, 123, 26, and 20 had LSF ≤10%, 10-20%, and >20%. IAV metrics at all thresholds showed a significant stepwise increase across these groups (p 10% and >20%, the AUROCs of IAV metrics ranged from 0.732-0.741 and 0.790-0.806, respectively. Using IAV75% as a representative metric, fixed 80% and 90% sensitivities yielded specificities of 50.4% (62/123) and 39.0% (48/123) for LSF >10% (cutoffs: 0.06 and 0.02 cm3), and 74.5% (111/149) and 57.7% (86/149) for LSF >20% (cutoffs: 0.50 and 0.16 cm3), respectively. Automated CT-based IAV enables objective LSF risk stratification in large HCC and can identify low-risk patients pre-procedurally, supporting a more streamlined TARE workflow.",
+      "pub_date": "2026-Jul-03",
+      "score": 2,
+      "tags": [
+        "vascular IR"
+      ],
+      "category": "candidate",
+      "oa_status": "closed",
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1476,7 +1695,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jseint.2026.101745",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1503,7 +1722,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.4103/ija.ija_264_26",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1530,7 +1749,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05280-6",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1557,7 +1776,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05287-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1585,7 +1804,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13018-026-07039-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1612,7 +1831,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04495-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1666,7 +1885,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2026.108919",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1693,7 +1912,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2026.108925",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1721,7 +1940,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02330-4",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1748,7 +1967,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02343-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1804,7 +2023,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00330-026-12709-y",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1832,7 +2051,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00330-026-12705-2",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -1860,7 +2079,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.251821",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1887,7 +2106,115 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1002/arj.70404",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1016/j.acra.2026.06.008",
+      "title": "MRI-based Predictors and Risk Constellations of Chronic Ankle Instability After Acute Lateral Ankle Sprain: A Multicenter Study.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Chen R, Bai H, Wang X, Wang Y, Tan Y, Song X, Cui S, Xie Y, Guo L, Zheng Q, Zhang Y, Niu J",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42392915/",
+      "doi": "10.1016/j.acra.2026.06.008",
+      "abstract": "Chronic ankle instability (CAI) is a common but under-recognized consequence of acute lateral ankle sprain (LAS), yet early identification of high-risk patients remains challenging. This study aimed to identify independent Magnetic resonance imaging (MRI) predictors of CAI assessed following an initial acute LAS and to explore clinically meaningful risk constellations. This multicenter retrospective study included 474 patients with initial acute LAS who underwent ankle MRI within two weeks. Patients were classified as CAI or \"Coper\" (recovered without instability) at 24-month follow-up using the Cumberland Ankle Instability Tool and symptom assessment. Two blinded musculoskeletal radiologists evaluated ligament injuries, bone marrow edema, joint effusion, and osteochondral lesions. Multivariable logistic regression identified independent predictors, and risk constellations were analyzed using multiplicative and additive interaction analyses. Prediction models were developed to assess the clinical significance of risk constellations. CAI developed in 163 patients (34.4%). Independent predictors included age (OR=1.07, p < 0.001), talar osteochondral lesions (TOL; OR=1.35, p = 0.042), and talonavicular ligament (TNL) injury Odds ratio (OR)=1.48, p=0.009). Several interaction-based risk constellations increased CAI risk, including TOL with male sex or severe calcaneofibular ligament injury, severe TNL injury with anterior talofibular or tibiocalcaneal ligament injury, and higher age with grade 2 talocalcaneal effusion (synergy index=3.24-4.45). Incorporation of risk constellations into prediction models improved patient risk reclassification Net reclassification improvement (NRI)=14.8%). Beyond age, MRI-detected TOL and TNL injuries after initial LAS are independent predictors of CAI. Risk constellations based on these predictors substantially increase CAI risk and may facilitate early identification of high-risk patients.",
+      "pub_date": "2026-Jul-02",
+      "score": 1,
+      "tags": [
+        "osteoarthritis / joint"
+      ],
+      "category": "candidate",
+      "oa_status": "closed",
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1186/s13018-026-07095-6",
+      "title": "Preoperative MRI and clinical indicators for predicting meniscal repairability: a machine learning-based study.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Hao P, Cheng K, Xu Y, Liu Z, Yao J, Shen A",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401973/",
+      "doi": "10.1186/s13018-026-07095-6",
+      "abstract": "To develop and internally validate a radiology-centered machine-learning model using preoperative MRI and clinical characteristics to predict arthroscopic meniscal repairability. A retrospective cohort of 491 patients who underwent knee MRI followed by arthroscopy between 2018 and 2023 was analyzed. Preoperative predictors included demographic variables, injury mechanism, and a comprehensive set of MRI-derived features. Meniscal morphology, bone marrow edema, joint effusion, cruciate ligament integrity, cartilage degeneration, tear displacement, ramp lesion, and extrusion distance were systematically assessed by two musculoskeletal radiologists. Interobserver agreement was evaluated using Cohen's kappa and intraclass correlation coefficients (ICCs). Least absolute shrinkage and selection operator (LASSO) regression was used to identify the most informative predictors. Logistic regression, random forest, gradient boosting machine (GBM), and support vector machine (SVM) models were trained using five-fold stratified cross-validation with hyperparameter tuning via grid search. Model performance was evaluated using area under the receiver operating characteristic curve (AUC) with 95% confidence intervals, calibration metrics (calibration slope, intercept, and Brier score), and decision curve analysis (DCA). LASSO selected 13 preoperative predictors spanning eight clinically relevant domains. Logistic regression achieved the highest cross-validated performance (AUC = 0.777, 95% CI 0.735-0.819), followed by SVM (AUC = 0.771), random forest (AUC = 0.770), and GBM (AUC = 0.755). Multivariable logistic regression identified ACL injury (OR 0.38, 95% CI 0.25-0.57, p < 0.001), high-grade cartilage degeneration (OR 0.42, 95% CI 0.28-0.63, p < 0.001), greater BMI (OR 1.08 per kg/m2, 95% CI 1.03-1.13, p = 0.002), male sex (OR 0.51, 95% CI 0.33-0.78, p = 0.002), and ≥ 3 mm tear displacement (OR 0.44, 95% CI 0.29-0.67, p < 0.001) as independent predictors of non-repairability. Calibration analysis demonstrated good agreement between predicted and observed probabilities (calibration slope 0.95, intercept -0.08, Brier score 0.21). DCA demonstrated that logistic regression and random forest provided the greatest clinical net benefit across practical threshold probabilities. A radiology-based machine-learning model integrating detailed preoperative MRI features can accurately predict meniscal repairability with internally validated performance and may assist surgeons in optimizing arthroscopic decision-making and surgical planning pending prospective external validation.",
+      "pub_date": "2026-Jul-04",
+      "score": 1,
+      "tags": [
+        "osteoarthritis / joint"
+      ],
+      "category": "candidate",
+      "oa_status": "gold",
+      "oa_pdf_url": "https://doi.org/10.1186/s13018-026-07095-6",
+      "oa_first_date": "2026-07-05",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.1007/s00256-026-05289-x",
+      "title": "Diagnostic accuracy of artificial intelligence for spinopelvic parameters in standing total spine X-ray and limitations after fusion surgery.",
+      "source": "skeletal_radiol",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Winkler T, Khakzad T, Pumberger M, Schömig F, Becher M, Diekhoff T",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399390/",
+      "doi": "10.1007/s00256-026-05289-x",
+      "abstract": "To evaluate the accuracy of a commercial deep learning algorithm in measuring spinopelvic parameters on full spine radiographs. This retrospective study analyzed total spine X-rays from a clinical cohort, assessing spinopelvic parameters (coronal Cobb angle, thoracic kyphosis, lumbar lordosis, pelvic incidence, sagittal vertical axis). Measurements were performed by clinical radiologists, a trained research reader serving as ground truth, and a commercial AI software. Inter-rater reliability was determined via intraclass correlation coefficients between an orthopedic surgeon and the trained reader (n = 50 images). Performance of both the AI and radiologists was statistically compared to the ground truth using mean absolute error, intraclass correlation coefficients, the Spearman correlation, and diagnostic accuracy metrics (sensitivity, specificity, predictive values). Four hundred ninety-five radiographs were analyzed. Inter-rater reliability between human raters, assessed via intraclass correlation coefficients, was excellent (0.94-1). Agreement between the algorithm and ground truth, also assessed via intraclass correlation coefficients, was good to excellent (0.79-0.99), except for lumbar lordosis (0.68, moderate). Mean absolute errors were lowest for coronal Cobb angles (4,6°; 95% confidence interval = 3.6-5.5°) and highest for lumbar lordosis (8.1°; 95% confidence interval = 6.9-9.3°). The Spearman rank correlations ranged from 0.74 to 0.99, and sensitivity was moderate to excellent (72.6-94.8). These results closely matched those obtained when comparing radiologists to ground truth. In a subgroup of patients with prior spinal fusion surgery, the correlation between the algorithm predictions and the ground truth was reduced, and measurement deviations were higher compared to non-instrumented patients. The commercial AI software predicted most spinopelvic parameters with good reliability and accuracy, coinciding with radiologists in clinical practice, however, showed limitations in patients with spinal instrumentation.",
+      "pub_date": "2026-Jul-04",
+      "score": 1,
+      "tags": [
+        "general diagnostic radiology"
+      ],
+      "category": "candidate",
+      "oa_status": "hybrid",
+      "oa_pdf_url": "https://link.springer.com/content/pdf/10.1007/s00256-026-05289-x.pdf",
+      "oa_first_date": "2026-07-05",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.1007/s00330-026-12727-w",
+      "title": "Spectral CT-based habitat analysis for predicting pathologic response to neoadjuvant therapy in gastric cancer.",
+      "source": "eur_radiol",
+      "source_name": "European Radiology",
+      "group": "general_rad",
+      "authors": "You Y, Yuan M, Yang X, Chen Y, Dang J, Chen X, Li J, Gao J",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401766/",
+      "doi": "10.1007/s00330-026-12727-w",
+      "abstract": "To investigate the predictive value of habitat imaging based on spectral CT-derived iodine maps (IMs) for pathologic response to neoadjuvant therapy (NAT) in gastric cancer (GC). This retrospective, two-center study included 151 patients with pathologically confirmed GC who underwent NAT followed by gastrectomy between July 2022 and June 2025. All patients underwent dual-phase, contrast-enhanced, dual-layer spectral CT scans before NAT. Based on tumor regression grade, patients were categorized as responders or non-responders. In venous-phase IMs, tumor voxels in the entire lesion were clustered into distinct habitats using the k-means algorithm. The volume fraction of each habitat and an intratumoral heterogeneity score (ITHscore) were calculated. Univariate analysis and logistic regression analyses determined predictive parameters among clinicopathologic and IM-based variables. A weighted logistic regression model for responders was developed and validated using fivefold cross-validation and an external test set. Among the 151 patients, 54 (35.8%) were responders. Three distinct perfusion habitats (high, middle, and low) were identified. Responders exhibited a higher volume fraction of the low-perfusion habitat and a lower ITHscore (both p < 0.05). By integrating these two metrics, patients were stratified into four perfusion subtypes, with response rates ranging from 75.0% to 17.4% (p < 0.001). The predictive model combining perfusion subtype and Lauren classification achieved an average area under the curve (AUC) of 0.794 (0.751-0.836) in internal cross-validation and 0.782 (0.605-0.909) in the external test set. IM-derived habitat imaging can distinguish distinct perfusion subtypes, suggesting a promising approach for predicting pathologic response to NAT in GC. Question Accurately predicting the efficacy of neoadjuvant therapy prior to treatment in gastric cancer remains challenging due to the lack of reliable biomarkers. Findings Perfusion subtypes identified through iodine map-based habitat imaging effectively predict tumor regression in gastric cancer following neoadjuvant therapy. Clinical relevance Iodine map-based habitat imaging is a promising biomarker for noninvasively predicting pathologic response to neoadjuvant therapy in patients with gastric cancer, thereby enabling more personalized treatment strategies for this population.",
+      "pub_date": "2026-Jul-04",
+      "score": 1,
+      "tags": [
+        "general diagnostic radiology"
+      ],
+      "category": "candidate",
+      "oa_status": "closed",
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1968,7 +2295,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05281-5",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -1995,7 +2322,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05264-6",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2022,7 +2349,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05288-y",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2049,7 +2376,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05284-2",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2076,7 +2403,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.7759/cureus.110071",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2103,7 +2430,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3400/avd.oa.22-00112",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2130,7 +2457,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-023-03496-w",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2157,7 +2484,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jaccas.2026.108802",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2184,7 +2511,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.radcr.2026.04.091",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2211,7 +2538,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1177/23259671261449169",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2238,7 +2565,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04515-2",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2292,7 +2619,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2026.108917",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2319,7 +2646,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2026.108920",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2346,7 +2673,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02338-w",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2373,7 +2700,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02318-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2400,7 +2727,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02337-x",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2427,7 +2754,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02333-1",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2454,7 +2781,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02344-y",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2481,7 +2808,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02342-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2508,7 +2835,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02331-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2535,7 +2862,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02320-6",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2643,7 +2970,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00330-026-12683-5",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2670,7 +2997,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2214/AJR.26.35387",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2697,7 +3024,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2214/AJR.26.35397",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2724,7 +3051,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250061",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2751,7 +3078,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250192",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": true
     },
@@ -2778,7 +3105,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250175",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2805,7 +3132,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250173",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2832,7 +3159,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.261507",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2859,7 +3186,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.252188",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2886,7 +3213,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.252037",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     },
@@ -2913,7 +3240,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.251874",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-05",
       "isNew": true,
       "oaNew": false
     }
