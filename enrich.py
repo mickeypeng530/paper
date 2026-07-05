@@ -156,7 +156,8 @@ def main():
         if oa_status and oa_status != "closed" and not pdf_reachable(oa_pdf):
             oa_pdf = None
         inst_sub, inst_plat = sfx_subscription(doi, cfg) if do_sfx else (None, "")
-        return iid, oa_status, oa_pdf, inst_sub, inst_plat, sfx_link(doi, cfg)
+        # SFX 停用時不呼叫 sfx_link(否則讀不到已移除的 inst_sfx.base → KeyError)
+        return iid, oa_status, oa_pdf, inst_sub, inst_plat, (sfx_link(doi, cfg) if do_sfx else "")
 
     from concurrent.futures import ThreadPoolExecutor
     n_oa = n_inst = done = 0
