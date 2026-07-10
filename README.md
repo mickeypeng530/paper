@@ -77,6 +77,20 @@ GOOGLE_APPLICATION_CREDENTIALS=./income-41a40-*.json python push_to_rtdb.py
 
 **跑摘要(on-demand,非自動化):** 使用者喊「跑摘要」時,Claude 讀 `papers.json`(或 RTDB `paperRadar/papers`)裡還沒 `summary` 的論文,逐篇寫中文重點,產出 `summaries.json`(`{item_id: 摘要}`),再 `GOOGLE_APPLICATION_CREDENTIALS=./income-*.json python push_summaries.py summaries.json`。摘要存論文的 `summary` 欄,每日 cron(`push_to_rtdb.py`)會**保留**不洗掉。刻意不進 cron / 不用 `ANTHROPIC_API_KEY` → 零 API 費用。前端卡片自動顯示 `📝 摘要` 與「出版/收錄日」。
 
+**⚠️ 摘要檔必須帶 title(防「放錯篇」):**
+```json
+{ "doi:10.1016/j.ejrad.2026.112968": {
+    "title": "Permanent vs. Temporary embolic agents in genicular artery ...",
+    "summary": "統合 22 篇… ==重點== …" } }
+```
+`push_summaries.py` 兩層驗證(靈感來自 [drpwchen/claude-paper-tools](https://github.com/drpwchen/claude-paper-tools) 的 CrossRef gate):
+- **第一層(離線、硬擋)**:你宣稱的 title vs RTDB 實際 title 做 **Jaccard** 比對(門檻 0.75)。對不上 → **整批拒推**。
+  ⚠️ 用 Jaccard(交集/聯集)不能用 `交集/較短者` —— 同主題不同論文共享大量領域詞會誤放行(實測 71% vs 45%)。
+- **第二層(CrossRef、只警示不阻擋)**:查 DOI 是否存在、標題是否吻合。我們的 DOI 來自 PubMed(非捏造)、且部分註冊在 DataCite → 404/不符只代表**上游 DOI 可能有誤**,不代表摘要放錯篇。網路掛 → 標「未驗證」放行。
+- 旗標:`--dry-run`(只驗證)、`--skip-crossref`(離線)。
+
+**曾踩的坑:** 使用者只貼「Conclusions 段落」要我更新摘要,我**靠內容猜是哪篇**,把 ejrad 那篇的結論寫進 s00270 那篇(兩篇都是 GAE 統合分析)。→ **要改哪篇,一律以 DOI/標題為錨,絕不靠內容猜。**
+
 **摘要格式慣例(重要):**
 - **實證研究(RCT/世代/回溯/診斷/統合)必寫「結果/結論」**,不能只寫「比較什麼」。⚠️ **abstract 的 Results/Conclusions 在結尾**,讀 `papers.json` 全文(勿截斷,或看 `abstract[-800:]`);要準確結論可用 PubMed efetch 抓全文(見 git 歷史)。綜論/指引/個案/技術描述內容即可。
 - **重點用 `==重點==` 標記** → 前端 `hl()` 渲染成螢光筆(`<mark>`)。每篇一對、務必成對。
