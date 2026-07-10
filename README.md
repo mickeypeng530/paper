@@ -91,6 +91,20 @@ GOOGLE_APPLICATION_CREDENTIALS=./income-41a40-*.json python push_to_rtdb.py
 
 **曾踩的坑:** 使用者只貼「Conclusions 段落」要我更新摘要,我**靠內容猜是哪篇**,把 ejrad 那篇的結論寫進 s00270 那篇(兩篇都是 GAE 統合分析)。→ **要改哪篇,一律以 DOI/標題為錨,絕不靠內容猜。**
 
+**GRADE 證據等級(選填,實證研究才給):**
+摘要條目可加 `grade` 區塊,Claude **只評 5 個 domain 的嚴重度 + 寫理由**,最終等級由 `grade_judge.py` 依 GRADE 規則**算**出來 —— 模型自報值若不符會被警告並以計算值為準(防模型喊一個聽起來很確定的等級)。
+```json
+"grade": {
+  "outcome": "GAE vs 假手術的止痛效果",
+  "starting_level": "high",        // RCT 為主→high;觀察性→low
+  "domains": [{"name":"risk_of_bias","rating":"serious","justification":"…"}, …]
+}
+```
+- 5 domain:`risk_of_bias / inconsistency / indirectness / imprecision / publication_bias`,`not_serious`(0)/`serious`(−1)/`very_serious`(−2)
+- 升級(`large_effect`/`dose_response`/`opposing_confounding`)**僅觀察性研究、且完全沒有任何降級時**才允許 —— 腳本會擋掉違規升級
+- 前端顯示徽章 `⊕⊕◯◯ 低` + 降級理由。單獨用:`python grade_judge.py input.json`
+- 綜論/個案/指引/技術描述**不給 grade**(GRADE 是評「證據體」的,不適用)
+
 **摘要格式慣例(重要):**
 - **實證研究(RCT/世代/回溯/診斷/統合)必寫「結果/結論」**,不能只寫「比較什麼」。⚠️ **abstract 的 Results/Conclusions 在結尾**,讀 `papers.json` 全文(勿截斷,或看 `abstract[-800:]`);要準確結論可用 PubMed efetch 抓全文(見 git 歷史)。綜論/指引/個案/技術描述內容即可。
 - **重點用 `==重點==` 標記** → 前端 `hl()` 渲染成螢光筆(`<mark>`)。每篇一對、務必成對。

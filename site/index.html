@@ -67,6 +67,14 @@
   .summary{background:var(--surface2);border-left:3px solid var(--accent);border-radius:6px;
         padding:7px 10px;margin-bottom:8px;font-size:.85rem;line-height:1.7}
   .summary mark{background:var(--hl);color:inherit;padding:0 3px;border-radius:3px;font-weight:600}
+  /* GRADE 證據等級徽章(由 grade_judge.py 決定性計算,非模型自報) */
+  .grade{display:inline-block;font-size:.72rem;font-weight:800;padding:2px 7px;
+        border-radius:5px;margin-right:7px;white-space:nowrap;vertical-align:1px}
+  .g-high{background:#1f7a4c;color:#fff}
+  .g-moderate{background:#2b6cff;color:#fff}
+  .g-low{background:#d99024;color:#1a1a1a}
+  .g-very_low{background:#d23b40;color:#fff}
+  .gradewhy{margin-top:6px;font-size:.72rem;color:var(--muted);line-height:1.5}
   .tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px}
   .tag{font-size:.68rem;background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:1px 6px;color:var(--muted)}
   .tag.neg{color:var(--bad)}
@@ -296,7 +304,12 @@ function card(p){
   const catCn = p.category==="recommended"?"推薦":"候選";
   const dates = [p.pub_date?`出版 ${esc(p.pub_date)}`:"", p.first_seen?`收錄 ${esc(p.first_seen)}`:""]
                   .filter(Boolean).join(" · ");
-  const summary = p.summary ? `<div class="summary">📝 ${hl(esc(p.summary))}</div>` : "";
+  const g = p.grade
+    ? `<span class="grade g-${esc(p.grade.level)}">${esc(p.grade.sym)} ${esc(p.grade.zh)}</span>` : "";
+  const gwhy = (p.grade && p.grade.why && p.grade.why.length)
+    ? `<div class="gradewhy">降級理由:${p.grade.why.map(esc).join(" · ")}</div>` : "";
+  const summary = p.summary
+    ? `<div class="summary">${g}📝 ${hl(esc(p.summary))}${gwhy}</div>` : "";
   return `<div class="card ${us.read?"read":""}" id="c-${k}">
     <div class="scorebox">
       <span class="score">${p.score}</span>

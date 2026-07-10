@@ -11,9 +11,17 @@
     {
       "doi:10.1016/j.ejrad.2026.112968": {
         "title": "Permanent vs. Temporary embolic agents in genicular artery ...",
-        "summary": "統合 22 篇... ==重點== ..."
+        "summary": "統合 22 篇... ==重點== ...",
+        "grade": {                       // 選填,僅實證研究
+          "outcome": "GAE vs sham 的止痛差異",
+          "starting_level": "high",      // RCT→high;觀察性→low
+          "domains": [{"name":"risk_of_bias","rating":"serious","justification":"..."}, ...]
+        }
       }, ...
     }
+
+GRADE:Claude 只評各 domain 嚴重度,最終等級由 grade_judge.py 依規則「算」出來,
+      模型自報值若不符會被警告並以計算值為準(防模型喊一個聽起來很確定的等級)。
 
 驗證兩層:
   第一層(離線、主防線、硬擋):比對你宣稱的 title vs RTDB 實際 title。
@@ -33,6 +41,8 @@ from pathlib import Path
 
 import firebase_admin
 from firebase_admin import credentials, db
+
+import grade_judge   # 決定性 GRADE 計算(零依賴,見 grade_judge.py)
 
 SCRIPT_DIR = Path(__file__).parent
 DEFAULT_DB_URL = "https://income-41a40-default-rtdb.firebaseio.com"
@@ -177,10 +187,20 @@ def main():
 
     # --- 寫入 ---
     ok_ids = {i for i in passed}
-    hit = 0
+    hit = graded = 0
     for p in papers:
-        if p.get("item_id") in ok_ids:
-            p["summary"] = raw[p["item_id"]]["summary"]; hit += 1
+        iid = p.get("item_id")
+        if iid not in ok_ids:
+            continue
+        entry = raw[iid]
+        p["summary"] = entry["summary"]; hit += 1
+        if entry.get("grade"):
+            res = grade_judge.grade(entry["grade"])
+            for w in res["warnings"]:
+                print(f"  ⚠️ {iid}: {w}")
+            p["grade"] = grade_judge.compact(res); graded += 1
+            print(f"  ⊕ {iid}: {res['symbol']} {res['label_zh']} "
+                  f"(起始 {res['starting_level']}, 淨 {res['total_change']:+d})")
     ref.set(payload)
     total_sum = sum(1 for p in papers if p.get("summary"))
     print(f"\n✓ 合併摘要 {hit} 筆 → {db_url}/paperRadar/papers "
