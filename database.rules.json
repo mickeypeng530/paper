@@ -1,4 +1,10 @@
 {
+  // ============================================================
+  //  paper-radar RTDB rules  —  v2  (2026-07-06)
+  //  v2: paperRadar 的 .read 提到上層 → papers/archive/未來節點自動繼承,免再改 rules
+  //  v1: papers 與 userState 各自寫 .read(每加節點就得改一次)
+  //  注意:此檔含 income 的 users/ 規則,發布時整份取代,勿只貼片段
+  // ============================================================
   "rules": {
     "users": {
       "$uid": {
@@ -7,13 +13,9 @@
       }
     },
     "paperRadar": {
-      "papers": {
-        ".read":  "auth.token.email === 'deer530530@gmail.com'",
-        ".write": false
-      },
+      ".read": "auth.token.email === 'deer530530@gmail.com'",
       "userState": {
         "$uid": {
-          ".read":  "$uid === auth.uid && auth.token.email === 'deer530530@gmail.com'",
           ".write": "$uid === auth.uid && auth.token.email === 'deer530530@gmail.com'"
         }
       }

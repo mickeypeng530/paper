@@ -103,6 +103,7 @@
   <p>IR / MSK / Spine 個人論文追蹤<br>請用授權帳號登入</p>
   <button class="gbtn" id="signin">以 Google 登入</button>
   <p id="loginerr" style="color:var(--bad)"></p>
+  <p class="meta" id="verLogin"></p>
 </div>
 
 <div id="app">
@@ -110,6 +111,7 @@
     <div class="htop">
       <h1>📡 放射科論文雷達</h1>
       <span class="meta" id="updated"></span>
+      <span class="meta" id="ver"></span>
       <button class="iconbtn" id="theme">🌓</button>
       <button class="iconbtn" id="signout">登出</button>
     </div>
@@ -139,6 +141,13 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChang
   from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getDatabase, ref, onValue, update }
   from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+
+// ── 版號:每次改前端就手動 bump,手機一看就知有沒有載到最新(對抗快取) ──
+const APP_VERSION = "v3 · 2026-07-06";
+for (const id of ["ver","verLogin"]) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = APP_VERSION;
+}
 
 // ============================================================================
 // ⚠️ 填入你 income 專案的 web 設定(從 income 前端 index.html 複製 firebaseConfig)。
