@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12 23:45",
+  "updated": "2026-07-13 23:46",
   "topic_groups": {
     "general_rad": {
       "label": "綜合放射(高分刊)",
@@ -23,8 +23,8 @@
     }
   },
   "counts": {
-    "total_db": 411,
-    "exported": 170
+    "total_db": 419,
+    "exported": 171
   },
   "papers": [
     {
@@ -53,7 +53,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2024.04.018",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -113,7 +113,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04502-7",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -143,7 +143,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04504-5",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -172,7 +172,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2106/JBJS.ST.25.00023",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -201,7 +201,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04188-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -230,7 +230,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.ostima.2025.100271",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -260,7 +260,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fradi.2026.1753020",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -288,7 +288,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fonc.2026.1715384",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -317,7 +317,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2022.08.016",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -346,7 +346,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2025.02.031",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -374,7 +374,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04243-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -402,7 +402,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.253312",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -430,9 +430,9 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-12",
-      "isNew": true,
-      "oaNew": true
+      "last_seen": "2026-07-13",
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.1177/23259671251337093",
@@ -459,7 +459,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1177/23259671251337093",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -488,7 +488,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.ostima.2025.100376",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -516,7 +516,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.clinimag.2026.110877",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -549,6 +549,34 @@
       "oaNew": false
     },
     {
+      "item_id": "doi:10.21037/apm-2026-1-0026",
+      "title": "Operational phenotyping for chronic low back pain: a narrative review and methodology for developing routing and escalation pathways across spine care.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Lewandrowski K, Pumberger M, Schomig F, Harhangi B, Vaccaro A, Lorio M",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42439016/",
+      "doi": "10.21037/apm-2026-1-0026",
+      "abstract": "Chronic low back pain (CLBP) is clinically heterogeneous and generates substantial symptom burden, functional limitation, psychological distress, work disability, and health-care utilization. Existing phenotyping approaches often describe subgroups but do not specify how subgroup assignment changes routing, conservative-care dose, imaging, interventional escalation, surgical evaluation, or outcome monitoring. The objective of this narrative review was to define operational phenotyping as a practical method for developing routable, auditable spine-care pathways and to distinguish this methodology from descriptive subgrouping, Subgroups for Targeted Treatment Back Screening Tool (STarT Back)-style risk stratification, and machine-learning phenotyping. We conducted a narrative review using structured methods. PubMed/MEDLINE was the primary database, supplemented by Embase, Cumulative Index to Nursing and Allied Health Literature (CINAHL), PsycINFO, Cochrane Central Register of Controlled Trials (CENTRAL), Scopus/Web of Science when available, guideline and trial-registry review, and reference-list screening. Searches covered January 2000 through January 2026. Studies were synthesized using an Inputs-Decision-Pathway-Outcome (IDPO) framework. The Berlin deep-phenotyping program was used as a contextual exemplar of multidomain measurement, not as evidence of treatment efficacy. The synthesis yielded five operational findings. First, phenotype labels are implementation-ready only when linked to explicit pathway decisions. Second, minimal universal inputs should be separated from targeted add-ons. Third, escalation gates require illustrative thresholds and safety overrides rather than open-ended care drift. Fourth, diagnostic procedures, including diagnostic medial branch blocks, may themselves define a pain generator phenotype and should not be treated only as downstream treatment. Fifth, surgical referral should be framed as entry into shared decision-making evaluation rather than an automatic indication for surgery. Operational phenotyping is best understood as a methodology for developing a field guide rather than a completed field guide for all settings. It translates deep phenotyping and stratified-care concepts into locally deliverable pathways by requiring the same four elements for each phenotype: feasible inputs, explicit decision logic, an actionable pathway, and measurable outcomes.",
+      "pub_date": "2026-Jul-08",
+      "score": 4,
+      "tags": [
+        "design:guideline",
+        "spine intervention"
+      ],
+      "category": "recommended",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
       "item_id": "doi:10.1007/s00270-026-04520-5",
       "title": "Predictors of Recurrence Following Bronchial Artery Embolisation (BAE) for Haemoptysis: A Systematic Review and Evidence Synthesis Analyses Using SWiM Guidelines.",
       "source": "cvir",
@@ -572,7 +600,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -629,9 +657,9 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-12",
-      "isNew": true,
-      "oaNew": true
+      "last_seen": "2026-07-13",
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.52965/001c.163034",
@@ -657,7 +685,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.52965/001c.163034",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -685,7 +713,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2147/DDDT.S601168",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -713,7 +741,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.knee.2022.12.008",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -741,7 +769,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.fas.2024.07.009",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -769,7 +797,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04144-1",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -797,7 +825,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2026.108803",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -825,7 +853,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00330-026-12663-9",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -853,7 +881,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3390/healthcare14111562",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -881,7 +909,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1093/jscr/rjag439",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -909,7 +937,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04518-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -937,7 +965,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250183",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -964,7 +992,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -1019,7 +1047,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -1074,7 +1102,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -1101,7 +1129,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -1129,7 +1157,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -1157,7 +1185,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -1184,7 +1212,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -1211,7 +1239,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -1238,7 +1266,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -1295,8 +1323,8 @@
       "sfx_url": "",
       "first_seen": "2026-07-05",
       "last_seen": "2026-07-07",
-      "isNew": true,
-      "oaNew": true
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.3389/fsurg.2026.1864618",
@@ -1321,9 +1349,9 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-12",
-      "isNew": true,
-      "oaNew": true
+      "last_seen": "2026-07-13",
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.1007/s00270-026-04528-x",
@@ -1348,9 +1376,9 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-12",
-      "isNew": true,
-      "oaNew": true
+      "last_seen": "2026-07-13",
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.1016/j.jvir.2026.108940",
@@ -1375,8 +1403,8 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-12",
-      "isNew": true,
+      "last_seen": "2026-07-13",
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -1403,8 +1431,8 @@
       "sfx_url": "",
       "first_seen": "2026-07-05",
       "last_seen": "2026-07-12",
-      "isNew": true,
-      "oaNew": true
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.1016/j.mayocpiqo.2026.100734",
@@ -1458,7 +1486,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05283-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -1593,7 +1621,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3174/ajnr.A9280",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -1620,7 +1648,7 @@
       "inst_platforms": null,
       "sfx_url": null,
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -1647,7 +1675,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.22603/ssrr.2025-0359",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -1674,7 +1702,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.22603/ssrr.2025-0327",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -1701,7 +1729,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fsurg.2026.1800908",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -1728,7 +1756,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1097/MD.0000000000049533",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -1755,7 +1783,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-022-04208-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -1782,7 +1810,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jse.2022.10.021",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -1809,7 +1837,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04307-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -1890,7 +1918,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04482-8",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -2026,7 +2054,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -2054,7 +2082,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -2136,7 +2164,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -2191,7 +2219,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -2328,7 +2356,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -2382,8 +2410,8 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-12",
-      "isNew": true,
+      "last_seen": "2026-07-13",
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -2491,7 +2519,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05280-6",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -2518,7 +2546,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05287-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -2546,7 +2574,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13018-026-07039-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -2682,7 +2710,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02330-4",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -2709,7 +2737,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02343-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -2821,7 +2849,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.251821",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -2875,7 +2903,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -2902,7 +2930,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -2929,7 +2957,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -2956,7 +2984,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -2983,7 +3011,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -3010,7 +3038,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -3064,7 +3092,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3091,7 +3119,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": true
     },
@@ -3118,7 +3146,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3145,7 +3173,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3172,7 +3200,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3226,7 +3254,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3253,7 +3281,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3307,7 +3335,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3334,7 +3362,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3388,7 +3416,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3415,7 +3443,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3442,7 +3470,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3523,7 +3551,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3550,7 +3578,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": true,
       "oaNew": false
     },
@@ -3578,7 +3606,7 @@
       "sfx_url": "",
       "first_seen": "2026-07-05",
       "last_seen": "2026-07-06",
-      "isNew": true,
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -3605,8 +3633,8 @@
       "sfx_url": "",
       "first_seen": "2026-07-05",
       "last_seen": "2026-07-07",
-      "isNew": true,
-      "oaNew": true
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.1007/s00256-026-05289-x",
@@ -3631,9 +3659,9 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-12",
-      "isNew": true,
-      "oaNew": true
+      "last_seen": "2026-07-13",
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.1007/s00330-026-12727-w",
@@ -3658,8 +3686,8 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-12",
-      "isNew": true,
+      "last_seen": "2026-07-13",
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -3739,7 +3767,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05281-5",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -3766,7 +3794,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05264-6",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -3793,7 +3821,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05288-y",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -3820,7 +3848,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05284-2",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -3847,7 +3875,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.7759/cureus.110071",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -3874,7 +3902,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3400/avd.oa.22-00112",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -3901,7 +3929,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-023-03496-w",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -3928,7 +3956,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jaccas.2026.108802",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -3982,7 +4010,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1177/23259671261449169",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4009,7 +4037,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04515-2",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4117,7 +4145,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02338-w",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4144,7 +4172,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02318-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4171,7 +4199,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02337-x",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4198,7 +4226,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02333-1",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4225,7 +4253,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02344-y",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4252,7 +4280,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02342-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4279,7 +4307,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02331-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4306,7 +4334,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02320-6",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4441,7 +4469,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2214/AJR.26.35387",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4468,7 +4496,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2214/AJR.26.35397",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4549,7 +4577,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250175",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4576,7 +4604,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250173",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     },
@@ -4684,7 +4712,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.251874",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "isNew": false,
       "oaNew": false
     }
