@@ -29,8 +29,81 @@ SUB_BRANDS = {
 }
 
 
-def unpaywall(doi, email):
-    """→ (oa_status, pdf_url)。closed/錯誤分別回 ('closed',None)/(None,None)。"""
+# --- OA 全文解析:多來源 route ladder(靈感來自 drpwchen/paper-fetch 的 OA 層)---------
+# Unpaywall 主來源 → 不夠再用 idconv/Semantic Scholar 兜底。每個候選都把 PMC 落地頁轉成
+# Europe PMC render 端點(PMC 已上 reCAPTCHA 擋 bot,原連結點開常卡)。我們是「發現端」,
+# 只需一條「可達的」OA 連結給前端點,不做整份 PDF 下載/magic-byte 驗證(那是 paper-fetch 的事)。
+
+def _pmc_render_url(url):
+    """PMC / Europe PMC 的落地或 PDF URL → Europe PMC ?pdf=render(直出 PDF,繞 reCAPTCHA)。
+       非 PMC 連結回 None。"""
+    if not url:
+        return None
+    low = url.lower()
+    if "ncbi.nlm.nih.gov" in low or "pmc.ncbi" in low or "europepmc.org" in low:
+        m = re.search(r"(PMC\d+)", url, re.I)
+        if m:
+            return f"https://europepmc.org/articles/{m.group(1).upper()}?pdf=render"
+    return None
+
+
+def _pmcid_render_url(doi, email):
+    """DOI→PMCID(NCBI idconv)→ Europe PMC render 端點。抓 NIH author manuscript
+       (在 PMC 但 Unpaywall 漏索引 / 只給 landing page)。查無 / 出錯回 None。"""
+    try:
+        params = {"ids": doi, "format": "json", "tool": "paper-radar"}
+        if email:
+            params["email"] = email
+        r = requests.get("https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/",
+                         params=params, timeout=20, headers={"User-Agent": UA})
+        if r.status_code != 200:
+            return None
+        for rec in (r.json() or {}).get("records", []):
+            pmcid = rec.get("pmcid")
+            if pmcid:
+                return f"https://europepmc.org/articles/{pmcid.upper()}?pdf=render"
+    except Exception:
+        pass
+    return None
+
+
+def _semantic_scholar_pdf(doi):
+    """Semantic Scholar Graph API 的 openAccessPdf 兜底 —— 獨立於 Unpaywall 的 OA 索引,
+       補 preprint server 版本與部分 hybrid OA。無需 API key(有 rate limit,429 靜默略過)。
+       查無 / 出錯回 None。"""
+    try:
+        r = requests.get(f"https://api.semanticscholar.org/graph/v1/paper/DOI:{doi}",
+                         params={"fields": "openAccessPdf"}, timeout=20,
+                         headers={"User-Agent": UA})
+        if r.status_code == 200:
+            return ((r.json() or {}).get("openAccessPdf") or {}).get("url") or None
+    except Exception:
+        pass
+    return None
+
+
+def _first_reachable(urls):
+    """回第一個 pdf_reachable 的 URL(寬鬆判定,見 pdf_reachable),都不可達回 None。"""
+    for u in urls:
+        if pdf_reachable(u):
+            return u
+    return None
+
+
+def resolve_oa(doi, email):
+    """多來源解析 OA 全文 → (oa_status, pdf_url)。pdf_url 只在「可達」時回,否則 None。
+       closed/錯誤分別回 ('closed',None)/(None,None)。Unpaywall 就命中時不花額外請求;
+       只有 Unpaywall 沒給到可達全文,才動用 idconv + Semantic Scholar 兜底。"""
+    pdfs, landings = [], []
+    def add_pdf(u):
+        if u and u not in pdfs:
+            pdfs.append(u)
+    def add_landing(u):
+        if u and u not in landings:
+            landings.append(u)
+
+    # ① Unpaywall（主來源，遍歷所有 oa_locations，不只 best）
+    oa_status = None
     try:
         r = requests.get(f"https://api.unpaywall.org/v2/{urllib.parse.quote(doi)}",
                          params={"email": email}, headers={"User-Agent": UA}, timeout=20)
@@ -38,11 +111,36 @@ def unpaywall(doi, email):
             return None, None
         u = r.json()
         if u.get("is_oa"):
-            loc = u.get("best_oa_location") or {}
-            return u.get("oa_status", "oa"), (loc.get("url_for_pdf") or loc.get("url"))
-        return "closed", None
+            oa_status = u.get("oa_status", "oa")
+            locs = ([u["best_oa_location"]] if u.get("best_oa_location") else []) \
+                   + (u.get("oa_locations") or [])
+            for loc in locs:
+                if not loc:
+                    continue
+                add_pdf(_pmc_render_url(loc.get("url_for_pdf")))
+                add_pdf(loc.get("url_for_pdf"))
+                add_pdf(_pmc_render_url(loc.get("url")))
+                add_landing(loc.get("url"))          # 落地頁 HTML → 只當最後手段
+        else:
+            oa_status = "closed"
     except Exception:
         return None, None
+
+    hit = _first_reachable(pdfs) or _first_reachable(landings)
+    if hit:
+        return (oa_status if oa_status and oa_status != "closed" else "oa"), hit
+
+    # ② 兜底來源（只在 Unpaywall 沒給到可達全文才花這些請求）
+    add_pdf(_pmcid_render_url(doi, email))
+    s2 = _semantic_scholar_pdf(doi)
+    add_pdf(_pmc_render_url(s2))
+    add_landing(s2)
+    hit = _first_reachable(pdfs) or _first_reachable(landings)
+    if hit:
+        # 兜底找到 → 這篇實質是 OA（即使 Unpaywall 標 closed / 未 index）
+        return "oa", hit
+
+    return (oa_status or "closed"), None
 
 
 def pdf_reachable(url):
@@ -150,11 +248,9 @@ def main():
     def work(row):
         """純網路（thread 內）→ 回傳要寫的值，不碰 DB。"""
         iid, doi = row
-        oa_status, oa_pdf = unpaywall(doi, email)
-        # 標成 OA 但實際抓不到（URL 缺/404）→ 清掉 oa_pdf；匯出時這篇會被隱藏，
-        # 等 recheck 哪天真的抓到才回來顯示。非 OA(closed/None) 不受影響。
-        if oa_status and oa_status != "closed" and not pdf_reachable(oa_pdf):
-            oa_pdf = None
+        # resolve_oa 內部已做多來源解析 + 可達性過濾：回傳的 oa_pdf 保證可達，或 None。
+        # 標 OA 卻無可達全文 → oa_pdf=None，匯出時這篇被隱藏，等 recheck 哪天抓到才顯示。
+        oa_status, oa_pdf = resolve_oa(doi, email)
         inst_sub, inst_plat = sfx_subscription(doi, cfg) if do_sfx else (None, "")
         # SFX 停用時不呼叫 sfx_link(否則讀不到已移除的 inst_sfx.base → KeyError)
         return iid, oa_status, oa_pdf, inst_sub, inst_plat, (sfx_link(doi, cfg) if do_sfx else "")

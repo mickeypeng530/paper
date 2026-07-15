@@ -86,6 +86,7 @@
   .act.on-good{background:var(--good);border-color:var(--good);color:#fff}
   .act.on-bad{background:var(--bad);border-color:var(--bad);color:#fff}
   .act.on-warn{background:var(--warn);border-color:var(--warn);color:#111}
+  .act.on-star{background:#e8b923;border-color:#e8b923;color:#1a1a1a}
   .empty{text-align:center;color:var(--muted);padding:50px 0}
 
   @media (max-width:600px){
@@ -128,6 +129,7 @@
         <option value="5">高分(≥5)</option>
       </select>
       <label><input type="checkbox" id="flaggedOnly"> 只看🚩</label>
+      <label><input type="checkbox" id="starredOnly"> 只看⭐</label>
     </div>
   </header>
 
@@ -143,7 +145,7 @@ import { getDatabase, ref, onValue, update }
   from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
 // ── 版號:每次改前端就手動 bump,手機一看就知有沒有載到最新(對抗快取) ──
-const APP_VERSION = "v3 · 2026-07-06";
+const APP_VERSION = "v4 · 2026-07-15";
 for (const id of ["ver","verLogin"]) {
   const el = document.getElementById(id);
   if (el) el.textContent = APP_VERSION;
@@ -254,7 +256,7 @@ function setField(paper, field, value){
 
 // ---- render ----
 const $ = id=>document.getElementById(id);
-["hideRead","sort","minScore","flaggedOnly"].forEach(id=> $(id).onchange=render);
+["hideRead","sort","minScore","flaggedOnly","starredOnly"].forEach(id=> $(id).onchange=render);
 
 function render(){
   if(!state.feed){ $("list").innerHTML='<div class="empty">載入中…</div>'; return; }
@@ -262,6 +264,7 @@ function render(){
 
   const hideRead = $("hideRead").checked;
   const flaggedOnly = $("flaggedOnly").checked;
+  const starredOnly = $("starredOnly").checked;
   const minScore = +$("minScore").value;
   const sortBy = $("sort").value;
 
@@ -271,6 +274,7 @@ function render(){
     const us = state.userState[safeKey(p.item_id)]||{};
     if(hideRead && us.read) return false;
     if(flaggedOnly && !us.flag) return false;
+    if(starredOnly && !us.star) return false;
     return true;
   });
   papers.sort((a,b)=> sortBy==="date"
@@ -293,6 +297,7 @@ function render(){
     el.querySelector(".a-up").onclick   = ()=> setField(p,"vote", us.vote===1?0:1);
     el.querySelector(".a-down").onclick = ()=> setField(p,"vote", us.vote===-1?0:-1);
     el.querySelector(".a-flag").onclick = ()=> setField(p,"flag",!us.flag);
+    el.querySelector(".a-star").onclick = ()=> setField(p,"star",!us.star);
   });
 }
 
@@ -336,6 +341,7 @@ function card(p){
         <button class="act a-up ${us.vote===1?"on-good":""}">👍</button>
         <button class="act a-down ${us.vote===-1?"on-bad":""}">👎</button>
         <button class="act a-flag ${us.flag?"on-warn":""}">🚩</button>
+        <button class="act a-star ${us.star?"on-star":""}">${us.star?"★ 已收":"⭐ 收wiki"}</button>
       </div>
     </div>
   </div>`;
