@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14 23:45",
+  "updated": "2026-07-15 23:53",
   "topic_groups": {
     "general_rad": {
       "label": "綜合放射(高分刊)",
@@ -23,8 +23,8 @@
     }
   },
   "counts": {
-    "total_db": 451,
-    "exported": 182
+    "total_db": 480,
+    "exported": 197
   },
   "papers": [
     {
@@ -53,7 +53,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2024.04.018",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -113,7 +113,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04502-7",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -143,7 +143,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04504-5",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -172,7 +172,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2106/JBJS.ST.25.00023",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -201,7 +201,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04188-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -260,7 +260,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fradi.2026.1753020",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -288,7 +288,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fonc.2026.1715384",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -317,7 +317,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2022.08.016",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -346,7 +346,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2025.02.031",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -374,7 +374,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04243-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -402,7 +402,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.253312",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -430,7 +430,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -459,7 +459,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1177/23259671251337093",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -488,7 +488,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.ostima.2025.100376",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -516,7 +516,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.clinimag.2026.110877",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -547,6 +547,62 @@
       "last_seen": "2026-07-10",
       "isNew": false,
       "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1007/s00256-026-05302-3",
+      "title": "Elastofibroma dorsi: imaging-guided minimally invasive treatment using percutaneous CO2 cryoablation.",
+      "source": "skeletal_radiol",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Mauri G, Glielmo P, Cammarata F, Albano D, Sconfienza L",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42455370/",
+      "doi": "10.1007/s00256-026-05302-3",
+      "abstract": "Elastofibroma dorsi is a benign slow-growing fibroelastic pseudotumoral lesion that typically arises in the infrascapular region of elderly individuals and is usually managed conservatively or by surgical excision when symptomatic. Percutaneous cryoablation has only recently been described for this entity, and experience remains very limited. We report the case of a symptomatic left elastofibroma dorsi treated by percutaneous cryoablation using a CO2-based system. A 66-year-old man with non-painful but mechanically symptomatic left elastofibroma dorsi, unwilling to undergo surgery, came to our attention to be treated with minimally invasive approach. Pre-treatment MRI demonstrated a lesion measuring 48 × 18 × 70 mm (31.6 mL) in the typical subscapular location. The lesion was treated by US-CT-guided percutaneous cryoablation using a CO2-based system (Metrum Cryoflex, Lomianki, Poland) equipped with a 4.5 cm of exposed tip cryoapplicator. The procedure was technically successful and well tolerated, with no immediate or delayed complications and free from immediate and post-treatment pain. At 3-month follow-up, contrast-enhanced MRI showed size reduction to 38 × 12 × 59 mm (14.1 mL, - 55.3% volume reduction), with internal non-enhancing necrotic change consistent with post-ablation effect. Clinically, the patient reported complete resolution of mechanical symptoms. This case suggests that percutaneous CO2 cryoablation may represent a feasible minimally invasive treatment option for selected patients with symptomatic elastofibroma dorsi. The use of a CO2-based cryoablation platform may offer practical and economic advantages, although its lower freezing capacity compared with conventional argon-and nitrogen-based systems requires careful procedural planning.",
+      "pub_date": "2026-Jul-15",
+      "score": 4,
+      "tags": [
+        "IR technique",
+        "general diagnostic radiology"
+      ],
+      "category": "recommended",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.3390/jcm15135172",
+      "title": "Genicular Artery Embolization for Chronic Exudative Knee Synovitis: Prospective 6-Month Clinical and Functional Outcomes.",
+      "source": "msk_embolization",
+      "source_name": "MSK 栓塞 / TAME / GAE",
+      "group": "ir_msk",
+      "authors": "Drelich M, Szmygin M, Sobiech M, Kuczyński P, Świetlicka I, Turżańska K, Zaborek S, Kuczyńska M, Sojka M, Gągała J, Ille S, Blicharski T",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42452633/",
+      "doi": "10.3390/jcm15135172",
+      "abstract": "Background/Objectives: The aim of this study is to analyze outcomes in patients who underwent genicular artery embolization (GAE) with respect to pain, symptoms, physical activity, quality of life, and knee joint range of motion and muscle strength of the knee joint. The study will provide evidence of the treatment's effectiveness using both subjective and objective measurements. In addition, the study will examine the impact of the severity of radiological changes in the knee joint and the number of embolized vessels on the extent of improvement in outcomes following the procedure. Methods: Patients eligible for GAE who exhibited symptoms of chronic exudative knee arthritis, confirmed by USG and MRI with contrast, did not have laboratory markers of inflammation, nor did they respond effectively to standard non-surgical treatments. The analysis included 34 patients. Subjective parameters were assessed using the VAS and KOOS scales. Knee range of motion and muscle strength were assessed using an electronic dynamometer and goniometer. Measurements were performed according to the same schedule before GAE, and at 1, 3 and 6 months after the procedure. The results were subjected to statistical analysis. Results: In the analysis up to 6 months, a significant time effect was demonstrated for the VAS and all KOOS subscales. The improvement was visible after 1 month and continued after 3 and 6 months. No significant changes over time were demonstrated for objective parameters. Exploratory analysis demonstrated a relationship between increased knee extensor strength and pain reduction up to 3 months and increased range of motion up to 6 months after the GAE. There was no significant association between radiological changes and the number of embolized vessels with improved outcomes after GAE. Conclusions: GAE appears to be a promising minimally invasive treatment option for patients with chronic knee synovitis. Clinically meaningful improvements were observed in patient-reported outcomes.",
+      "pub_date": "2026-Jul-02",
+      "score": 4,
+      "tags": [
+        "MSK embolization (TAME/GAE)",
+        "osteoarthritis / joint"
+      ],
+      "category": "recommended",
+      "oa_status": "gold",
+      "oa_pdf_url": "https://www.mdpi.com/2077-0383/15/13/5172/pdf?version=1782987870",
+      "oa_first_date": "2026-07-15",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": true
     },
     {
       "item_id": "doi:10.21037/apm-2026-1-0026",
@@ -600,7 +656,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -630,8 +686,8 @@
       "sfx_url": "",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "isNew": true,
-      "oaNew": true
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.4329/wjr.120315",
@@ -657,7 +713,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -685,7 +741,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.52965/001c.163034",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -713,7 +769,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2147/DDDT.S601168",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -741,7 +797,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.knee.2022.12.008",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -769,7 +825,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.fas.2024.07.009",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -797,7 +853,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04144-1",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -825,7 +881,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2026.108803",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -881,7 +937,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3390/healthcare14111562",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -909,7 +965,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1093/jscr/rjag439",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -965,9 +1021,64 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250183",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
+    },
+    {
+      "item_id": "doi:10.3390/diagnostics16132134",
+      "title": "Ultrasonographic Knee Abnormalities and Their Association with Pain in Young Male Handball and Basketball Athletes: A Cross-Sectional Study.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Pascalau N, Ilieș A, Osser B, Toth C, Osser G, Bondar L, Bulz G, Sabău A, Gavrila-Ardelean M, Toderescu C",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42449915/",
+      "doi": "10.3390/diagnostics16132134",
+      "abstract": "Background/Objectives: Knee injuries and overuse-related disorders are common among athletes participating in jumping sports such as handball and basketball. Musculoskeletal ultrasonography is increasingly used for the assessment of knee pathology; however, evidence regarding the prevalence and clinical relevance of ultrasonographic abnormalities in young athletes remains limited. The aim of this study was to investigate the prevalence of ultrasonographic knee abnormalities in young male handball and basketball athletes and to examine their association with pain intensity. Methods: A cross-sectional observational study was conducted between June 2025 and June 2026 and included 69 competitive male athletes (35 handball players and 34 basketball players). All participants underwent bilateral knee ultrasonographic examination using a standardized assessment protocol and completed a questionnaire regarding demographic and training characteristics. Knee pain intensity was evaluated using the Visual Analogue Scale (VAS). Comparisons between sports were performed using χ2 and t-tests, while associations between participant-level ultrasonographic findings and pain were evaluated using independent-samples t-tests (or Mann-Whitney U tests, as appropriate), with Cohen's d effect sizes and exploratory multivariable linear regression. Sensitivity analyses stratified by sport were additionally performed. Results: Patellar tendinopathy was the most prevalent ultrasonographic abnormality (21.0%), followed by medial meniscal abnormality (15.9%) and infrapatellar bursitis (13.0%). Athletes with patellar tendinopathy, medial meniscal abnormality, or infrapatellar bursitis had significantly higher VAS pain scores than athletes without the corresponding ultrasonographic abnormality. Patellar tendinopathy demonstrated the strongest association with participant-reported pain (VAS: 4.1 ± 1.3; Cohen's d = 1.24; p < 0.001). Handball athletes exhibited a significantly higher prevalence of patellar tendinopathy than basketball athletes (34.3% vs. 11.8%; OR = 3.90, 95% CI: 1.09-13.95; p = 0.027). In multivariable regression analysis adjusted for age, BMI, sport type, previous knee injury, and weekly training volume, patellar tendinopathy (β = 1.34, p < 0.001), medial meniscal abnormality (β = 0.70, p = 0.017), and infrapatellar bursitis (β = 0.54, p = 0.046) remained independently associated with higher pain scores. The regression model explained 39% of the variance in VAS pain scores (R2 = 0.39). Conclusions: Ultrasonographic knee abnormalities are common among young male handball and basketball athletes and are significantly associated with pain intensity. Because ultrasonography has limited ability to characterize intra-articular pathology, particularly the menisci, the ultrasonographic abnormalities identified in this study should not be interpreted as definitive diagnoses, and MRI remains the reference imaging modality when comprehensive evaluation of intra-articular pathology is clinically indicated. Patellar tendinopathy was the most prevalent ultrasonographic abnormality and was most strongly associated with pain intensity. These findings support the use of musculoskeletal ultrasonography as a complementary imaging modality alongside clinical assessment in the evaluation of symptomatic athletes. However, prospective longitudinal studies are required to determine whether these ultrasonographic abnormalities have prognostic value for future pain, functional limitation, or time-loss injury.",
+      "pub_date": "2026-Jul-07",
+      "score": 3,
+      "tags": [
+        "MSK diagnostic imaging",
+        "osteoarthritis / joint"
+      ],
+      "category": "recommended",
+      "oa_status": "gold",
+      "oa_pdf_url": "https://www.mdpi.com/2075-4418/16/13/2134/pdf?version=1783432917",
+      "oa_first_date": "2026-07-15",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.3390/jcm15134965",
+      "title": "Long-Term Clinical Outcomes After Ultrasound-Guided Cervical Retrolaminar Block in Patients with Cervical Radiculopathy.",
+      "source": "spine_injection",
+      "source_name": "脊椎注射 / 介入",
+      "group": "spine",
+      "authors": "Hochberg U, Lichtenstein A, Zbede W, Taher A, de Santiago J, Brill S, Khashan M",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42452427/",
+      "doi": "10.3390/jcm15134965",
+      "abstract": "Background/Objectives: Cervical radiculopathy is a frequent cause of pain, often leading to disability, reduced quality of life, and significant healthcare utilization. Cervical epidural steroid injections are widely used, though safety concerns have been reported. Ultrasound-guided cervical retrolaminar block (RLCB) is a potential alternative. The purpose of this study was to evaluate the long-term clinical trajectory after ultrasound-guided cervical retrolaminar block, including pain outcomes, patient-reported improvement, and the rate of subsequent cervical spine surgery. Methods: This is a retrospective cohort analysis that was conducted at the Pain and Spine Surgery units in a single center. We included 121 patients with cervical radiculopathy treated between January 2020 and September 2022 (mean age 49.4 ± 11.1 years; 51.2% male). All patients underwent RLCB. s: Primary outcome measures were subsequent cervical decompressive surgery and composite pain response (≥2-point absolute and ≥50% relative NRS reduction). Secondary outcome measures included recurrence, analgesic use, global rating of change (GRC), satisfaction, willingness to repeat, and safety. Baseline data was extracted from records; structured follow-up interviews were conducted at two years. Results: At two years, 9.1% required surgery, and 57.9% achieved composite pain response; 74.4% reported ≥2-point NRS reduction. GRC scores showed improvement (mean 5.0 ± 3.4), with 37% reporting \"very much better.\" Satisfaction was high, with 70.2% willing to repeat. Pain recurred in 71.1% but persisted in 28.9%. No major complications occurred; minor events were reported in 6.6%. Outcomes were less favorable in patients with pre-injection pain duration ≥1 year. Conclusions: In this retrospective cohort, cervical RLCB was associated with sustained patient-reported improvement, high satisfaction, and a 9.1% observed subsequent surgery rate at two years. These findings are hypothesis-generating and require confirmation in prospective controlled studies.",
+      "pub_date": "2026-Jun-25",
+      "score": 3,
+      "tags": [
+        "spine intervention"
+      ],
+      "category": "recommended",
+      "oa_status": "gold",
+      "oa_pdf_url": "https://www.mdpi.com/2077-0383/15/13/4965/pdf?version=1782395606",
+      "oa_first_date": "2026-07-15",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": true
     },
     {
       "item_id": "doi:10.3389/fmed.2026.1829343",
@@ -993,7 +1104,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": true
     },
@@ -1020,7 +1131,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -1075,7 +1186,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -1130,9 +1241,9 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
-      "oaNew": true
+      "last_seen": "2026-07-15",
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.1016/j.jvir.2026.108943",
@@ -1157,9 +1268,9 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
-      "oaNew": true
+      "last_seen": "2026-07-15",
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.1148/radiol.260907",
@@ -1185,8 +1296,8 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
+      "last_seen": "2026-07-15",
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -1213,8 +1324,8 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
+      "last_seen": "2026-07-15",
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -1240,9 +1351,9 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
-      "oaNew": true
+      "last_seen": "2026-07-15",
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.2147/jpr.s618013",
@@ -1267,9 +1378,9 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
-      "oaNew": true
+      "last_seen": "2026-07-15",
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.52965/001c.163307",
@@ -1294,9 +1405,9 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
-      "oaNew": true
+      "last_seen": "2026-07-15",
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "h:f9597e688a2f",
@@ -1377,7 +1488,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -1404,7 +1515,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -1431,7 +1542,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -1514,7 +1625,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05283-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -1676,7 +1787,7 @@
       "inst_platforms": null,
       "sfx_url": null,
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -1703,7 +1814,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.22603/ssrr.2025-0359",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -1730,7 +1841,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.22603/ssrr.2025-0327",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -1757,7 +1868,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fsurg.2026.1800908",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -1784,7 +1895,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1097/MD.0000000000049533",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -1811,7 +1922,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-022-04208-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -1838,7 +1949,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jse.2022.10.021",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -1865,7 +1976,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04307-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -2060,6 +2171,34 @@
       "oaNew": false
     },
     {
+      "item_id": "doi:10.3389/fonc.2026.1768309",
+      "title": "Diagnostic performance and clinical utility of shear-wave elastography in musculoskeletal soft-tissue tumors: a systematic review.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Lin Y, Wang J, Sun H, Zhou J",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42453881/",
+      "doi": "10.3389/fonc.2026.1768309",
+      "abstract": "Shear-wave elastography (SWE) is increasingly used to assess musculoskeletal soft-tissue masses, but its diagnostic performance relative to ultrasonography (US) and magnetic resonance imaging (MRI) remains uncertain. To evaluate the diagnostic accuracy, reproducibility, and clinical utility of SWE for differentiating benign and malignant soft-tissue tumors. Following PRISMA-DTA guidelines, PubMed/MEDLINE, Embase, Web of Science, Scopus, ProQuest Dissertations and Theses, and RSNA/WFUMB proceedings were searched through 22 September 2025. Eligible studies included patients with histologically verified extraosseous soft-tissue masses evaluated using quantitative SWE. Sensitivity, specificity, and area under the ROC curve (AUC) were extracted or reconstructed. Owing to marked methodological and threshold heterogeneity, a narrative synthesis was performed. Certainty of evidence was rated with GRADE-DTA. Ten studies (n = 1,335 lesions; 22-41% malignant) met inclusion criteria following a search of six databases (PubMed/MEDLINE, Embase, Web of Science, Scopus, ProQuest Dissertations and Theses, and RSNA/WFUMB proceedings) through 22 September 2025. SWE reproducibility was high where reported (intraclass correlation coefficient > 0.85 in four studies), but diagnostic performance varied widely (AUC range 0.57-0.87). In some studies, In selected studies, SWE was associated with potentially higher specificity in benign-appearing or superficial lesions (ΔAUC +0.07 vs US in one cohort), but it failed to distinguish lipomatous or deep lesions from malignancy. MRI remained superior in most direct comparisons (AUC 0.85-0.90). Threshold heterogeneity and poor cross-vendor reproducibility limited generalizability. Certainty of evidence was moderate for superficial lesions and low for deep or lipomatous tumors. SWE demonstrates excellent reproducibility but inconsistent diagnostic utility across lesion types. It should be applied selectively primarily for superficial, non-fatty lesions as an adjunct to US rather than as a stand-alone diagnostic tool. Standardized acquisition protocols and vendor calibration are prerequisites for broader clinical adoption. https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=1172017, identifier CRD420251172017.",
+      "pub_date": "2026",
+      "score": 2,
+      "tags": [
+        "design:systematic review",
+        "general diagnostic radiology"
+      ],
+      "category": "candidate",
+      "oa_status": "gold",
+      "oa_pdf_url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1768309/pdf",
+      "oa_first_date": "2026-07-15",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
       "item_id": "doi:10.1515/rir-2026-0018",
       "title": "Health service capacity of rheumatology and immunology departments in China: A cross-sectional study of young and middle-aged physicians.",
       "source": "msk_imaging",
@@ -2082,7 +2221,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": true
     },
@@ -2109,7 +2248,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -2164,7 +2303,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": true
     },
@@ -2246,7 +2385,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": true
     },
@@ -2301,7 +2440,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -2412,7 +2551,7 @@
       "sfx_url": "",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-09",
-      "isNew": true,
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -2438,8 +2577,8 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
+      "last_seen": "2026-07-15",
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -2466,7 +2605,7 @@
       "sfx_url": "",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-09",
-      "isNew": true,
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -2492,7 +2631,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -2601,7 +2740,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05280-6",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -2628,7 +2767,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05287-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -2656,7 +2795,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13018-026-07039-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -2792,7 +2931,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02330-4",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -2819,7 +2958,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02343-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -2963,6 +3102,278 @@
       "oaNew": false
     },
     {
+      "item_id": "doi:10.1016/j.radi.2026.103483",
+      "title": "Radiographers' accuracy in interpreting acute musculoskeletal X-rays when supported by artificial intelligence - A multi-site cross-sectional study.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Kjelle E, Larsson Y, Sivanandan R, Brurberg K",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42447760/",
+      "doi": "10.1016/j.radi.2026.103483",
+      "abstract": "The artificial intelligence (AI) tool BoneView™ has been introduced into clinical practice to support skeletal X-ray interpretation. This created a new workflow in which radiographers are expected to evaluate and act on AI output. This study assessed the accuracy of AI-supported radiographers in detecting skeletal injuries on adult trauma X-rays. In this cross-sectional study, 10 AI-supported diagnostic radiographers from 4 hospitals retrospectively assessed 542 acute musculoskeletal X-ray examinations. The radiographers interpreted the examinations with access to BoneView™ output and marked each case as either sure/unsure positive or sure/unsure negative, with an optional free-text field for comments. Sensitivity and specificity were calculated for BoneView™ and for each AI-supported radiographer, using a quality-assured radiologist's report as the reference standard. Differences in diagnostic performance between AI and AI-supported radiographers, and between AI-supported radiographers, were examined using generalized linear mixed models. AI-supported radiographers had an overall sensitivity of 94% and specificity of 86%, compared with 96% and 71%, respectively, for AI alone. The difference in diagnostic performance was primarily driven by AI-supported radiographers' higher specificity in interpreting X-rays of the pelvic/hip and foot/toe regions, but inter-radiographer variability was substantial. Radiographers with ≥5 years of experience had higher sensitivity (p 0.01) and lower specificity (p 0.02) than those with <5 years of experience. The involvement of radiographers had limited impact on sensitivity compared with AI alone but was associated with improved specificity. Variability in performance and suboptimal specificity indicate potential for further improvement through training, workflow optimization, or refinement of AI support. Understanding radiographers' diagnostic accuracy when using AI helps clarify how such tools may support triage, reduce diagnostic delays, and distribute workload in acute skeletal imaging.",
+      "pub_date": "2026-Jul-14",
+      "score": 1,
+      "tags": [
+        "general diagnostic radiology"
+      ],
+      "category": "candidate",
+      "oa_status": "hybrid",
+      "oa_pdf_url": "https://doi.org/10.1016/j.radi.2026.103483",
+      "oa_first_date": "2026-07-15",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.3390/ijms27135871",
+      "title": "Fascia as a Functional System in Health and Disease: From Fundamental Biology to Assessment and Targeted Interventions.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Huang H, Chen L, Lai Y, Li W, Li J",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42450141/",
+      "doi": "10.3390/ijms27135871",
+      "abstract": "Fascia is increasingly recognized as a dynamic functional system. It can actively sense, transmit, and regulate mechanical, sensory, and metabolic signals. Why does fascia play such a critical role in chronic pain and movement disorders? Researchers are now rethinking the pathophysiological mechanisms underlying this role. Previous systematic reviews have typically focused primarily on specific mechanisms or interventions. In contrast, this study takes a holistic view of fascial function. It integrates multiple physiological functions of the fascia: mechanical integration, sensory modulation, cellular and matrix remodeling, as well as metabolic and immune regulation. From the perspective of functional imbalance, we further explore the pathological mechanisms associated with the fascia. Building on this, we then focus on how to assess fascial function from multiple dimensions and on specific targeted interventions. For assessment, we have systematically compiled a set of multi-stage quantitative techniques. These include clinical palpation, ultrasound, and elastography, tissue mechanics testing, microdialysis, omics approaches, electrophysiological testing, and digital modeling. For interventions, we have listed a range of modulating approaches, such as manual therapy, exercise rehabilitation, dry needling and acupuncture, fascial injections, targeted drugs, and biotechnological materials derived from tissue engineering. This review summarizes a clinical decision-making framework guided by the assessment of fascial functional status. It emphasizes a systematic approach and links quantitative diagnosis with precise interventions. Additionally, it provides a literature synthesis for understanding fascial mechanisms and related disorders and offers a reference foundation for the field's transition from empirical treatment to measurable, reproducible, and individualized practice.",
+      "pub_date": "2026-Jun-29",
+      "score": 1,
+      "tags": [
+        "design:systematic review"
+      ],
+      "category": "candidate",
+      "oa_status": "gold",
+      "oa_pdf_url": "https://www.mdpi.com/1422-0067/27/13/5871/pdf?version=1782749944",
+      "oa_first_date": "2026-07-15",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.1002/ar.70271",
+      "title": "Three-dimensional digital analysis of musteloid masticatory muscle architecture.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Davis C, Dickinson E, Manzo M, Deutsch A, Davis J, Granatosky M, Hartstone-Rose A",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42452807/",
+      "doi": "10.1002/ar.70271",
+      "abstract": "Masticatory muscle architectural properties (i.e., fascicle length [FL] and physiological cross-sectional area [PCSA]) relate to an animal's diet. However, the traditional gross dissection approach to evaluating them destroys the three-dimensional relationships between and within muscles. Recent advances in three-dimensional analytical approaches, particularly diffusible iodine-based contrast-enhanced computed tomography (DiceCT), have been used to evaluate, in primates, both traditional and in situ variables, including tortuosity and fascicular orientation-which can inform the interpretation of a muscle's position on the length-tension curve and its vector of pull, respectively. To evaluate this method's applicability in carnivorans, we used DiceCT to analyze the masticatory musculature of seven dietarily diverse members of the superfamily Musteloidea. Digitally reconstructed muscle masses corresponded to gross dissection values from conspecifics in all but one specimen, a discrepancy we attribute to intraspecific body size variation. Digitally derived FL and PCSA values also broadly agreed with previously reported dissection-based values. No architectural variables (FL, PCSA, or muscle mass) showed consistent correlations with diet in this small sample. As seen in primates, fascicular orientation revealed an anterior-vertical-posterior division among musteloid masseteric components. Tortuosity values also displayed functionally coherent trends: abductors exhibited the lowest tortuosity at occlusion, while the temporalis components showed the highest, aligning with hypothesized gape-dependent activation sequences, for example, the \"triplet\" motor pattern. These findings demonstrate that DiceCT reliably reproduces traditional architectural variables while revealing additional aspects of muscle structure that relate to important functional activation patterns supporting the broader utility of DiceCT for comparative musculoskeletal research across Mammalia.",
+      "pub_date": "2026-Jul-14",
+      "score": 1,
+      "tags": [
+        "general diagnostic radiology"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1186/s13244-026-02294-5",
+      "title": "Contrast-enhanced mammography in the setting of neoadjuvant therapy from a multidisciplinary perspective.",
+      "source": "insights_img",
+      "source_name": "Insights into Imaging",
+      "group": "general_rad",
+      "authors": "Pires-Gonçalves L, Leal C, Guimarães-Santos A, Aguiar A, Abreu M, Brito D, Henrique R",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42455261/",
+      "doi": "10.1186/s13244-026-02294-5",
+      "abstract": "Contrast-enhanced mammography (CEM) is a morphofunctional imaging technique that is gaining interest and acceptance in clinical practice. With increasing use of neoadjuvant therapy (NAT) in breast cancer and of precision medicine, the need for equitable access to appropriate high-quality advanced imaging for monitoring response has become ever more relevant. CEM is an imaging alternative for NAT monitoring, with encouraging initial results and a good logistical profile. In this educational review from a practical perspective, we explore key aspects for response assessment of NAT and CEM roles in this setting, based on relevant literature and the authors' clinical experience. Pearls and pitfalls, as well as opportunities and challenges for NAT monitoring with CEM, will be approached from the perspectives of the radiologist, the oncologist, the surgeon, the pathologist, and the patient. CRITICAL RELEVANCE STATEMENT: The early experience with CEM in the NAT setting is positive, encouraging its further development, not only from the radiologist's view but also from a broad multidisciplinary perspective. KEY POINTS: CEM seems to be non-inferior to MRI for response evaluation and preoperative re-staging after NAT. CEM may predict and monitor in vivo chemosensitivity during NAT. CEM may allow a greater patient flow rate compared to MRI.",
+      "pub_date": "2026-Jul-15",
+      "score": 1,
+      "tags": [
+        "general diagnostic radiology"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1007/s00330-026-12745-8",
+      "title": "Scientific evidence of commercial artificial intelligence products for pulmonary nodule assessment on CT scans: a systematic review.",
+      "source": "eur_radiol",
+      "source_name": "European Radiology",
+      "group": "general_rad",
+      "authors": "Paramasamy J, Leliveld A, Groen J, Willems B, Aerts J, van der Lugt A, Mulders T, Odink A, Visser J",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42448899/",
+      "doi": "10.1007/s00330-026-12745-8",
+      "abstract": "This systematic review evaluates the available evidence on the efficacy of commercially available AI-software applications for lung nodule assessment on CT scans. In adherence to PRISMA guidelines, a thorough search of electronic databases was conducted (January 2012-November 2024) to identify studies on CE-marked and/or FDA-cleared AI-based systems for evaluating pulmonary nodules on CT scans. Articles were systematically categorised using the Radiology AI Deployment and Assessment Rubric (RADAR) to assess the evolution of efficacy over time across various hierarchical levels. A total of 95 studies were included. Between 2012 and 2024, the number of studies increased from 14 in 2012-2017 to a total of 95 by 2024. The studies were categorised using the RADAR efficacy model. In the early period (2012-2017), most studies focused on lower efficacy levels, with Level-1 (technical efficacy) and Level-2 (diagnostic accuracy) dominating at 83.3%. During this period, AI applications were mainly focused on quantification (46.7%), while malignancy prediction was addressed in only 6.7% of studies. By 2024, Levels-3 (diagnostic thinking efficacy), 4 (therapeutic efficacy), and 5 (patient outcomes) accounted for over a third of all studies. Malignancy prediction further increased to 28.6%, and nodule characterisation emerged in 4.5% of studies. Despite advancements, research on patient outcomes and cost-effectiveness efficacy (Levels-5 and 6) remains limited. Also, all included studies demonstrated high risk of bias in at least one domain, and nearly two-thirds involved vendor funding or co-authorship. In conclusion, the growing interest and investment in AI technologies for thoracic radiology have driven significant advancements in lung nodule assessment on CT-scans. Gaps remain in assessing patient outcomes and societal implications, which must be addressed to fully realise AI's potential in clinical practice and public health. Question What is the current level of scientific evidence supporting commercially available AI tools for pulmonary nodule assessment on CT, and is this sufficient to support their clinical implementation? Findings Research on AI for pulmonary nodule assessment has surged, with the focus evolving from basic technical performance in the early years to higher clinical outcomes by 2024. Clinical relevance This study provides critical insights into the evolving role of AI in lung nodule assessment on CT-scans, highlighting advancements in technology and identifying key gaps in current research. Addressing these is essential for optimising AI's clinical application and improving patient outcomes.",
+      "pub_date": "2026-Jul-15",
+      "score": 1,
+      "tags": [
+        "design:systematic review",
+        "general diagnostic radiology",
+        "neg:health economics"
+      ],
+      "category": "candidate",
+      "oa_status": "hybrid",
+      "oa_pdf_url": "https://doi.org/10.1007/s00330-026-12745-8",
+      "oa_first_date": "2026-07-15",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.1007/s00330-026-12718-x",
+      "title": "Reply to Letter to the Editor: The safety and effectiveness of ethanol embolosclerotherapy in the treatment of arterio-venous malformations: a systematic review and meta-analysis.",
+      "source": "eur_radiol",
+      "source_name": "European Radiology",
+      "group": "general_rad",
+      "authors": "Carroll Downey A, Yakes W, Park A, Lee S, Lin X, Hua C, Flanagan S, Amaral J, Amirabadi A, Gasparetto A",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42455347/",
+      "doi": "10.1007/s00330-026-12718-x",
+      "abstract": "",
+      "pub_date": "2026-Jul-15",
+      "score": 1,
+      "tags": [
+        "design:systematic review"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1007/s00330-026-12717-y",
+      "title": "Letter to the Editor: The safety and effectiveness of ethanol embolosclerotherapy in the treatment of arterio-venous malformations: a systematic review and meta-analysis.",
+      "source": "eur_radiol",
+      "source_name": "European Radiology",
+      "group": "general_rad",
+      "authors": "Cao C, Xu S",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42455348/",
+      "doi": "10.1007/s00330-026-12717-y",
+      "abstract": "",
+      "pub_date": "2026-Jul-15",
+      "score": 1,
+      "tags": [
+        "design:systematic review"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.2214/ajr.26.35094",
+      "title": "Arthroscopy-Validated Diagnostic Performance of a Deep Learning Reconstruction Pipeline for Rapid 7-Minute Five-Sequence 3-T Knee MRI.",
+      "source": "ajr",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Leonhardt Y, Vosshenrich J, Jardon M, Napolitano A, Neumann S, Feuerriegel G, Serfaty A, Rodrigues T, Fritz J",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42455029/",
+      "doi": "10.2214/AJR.26.35094",
+      "abstract": "Background. Deep learning reconstruction (DLR) methods can enhance image quality and reduce scan time of knee MRI compared with conventional approaches but require validation against independent reference standards to ensure robustness and accuracy. Objective. The purpose of this study was to assess the diagnostic performance of a two- to threefold parallel imaging-accelerated 7-minute five-sequence 3-T knee MRI protocol using a deep learning-based image reconstruction pipeline (AIR Recon DL, GE HealthCare), with arthroscopic surgery as the reference standard. Methods. A total of 117 consecutive adult patients (mean age: 44 ± 16 [SD] years; 65 men, 52 women) with painful knee conditions who underwent DLR 3-T knee MRI and arthroscopic knee surgery with a median MRI-tosurgery interval of 35 days (range: 5-88 days) between June 2021 and May 2024 were retrospectively identified and included. MRI studies were independently reviewed by seven musculoskeletal radiologists for image quality parameters using Likert scales (range: 1 = very bad to 5 = very good) and the presence of meniscus tears, cruciate and collateral ligament tears, and articular cartilage defects. Statistical analyses included interreader agreements and diagnostic performance testing. Results. Overall image quality of DLR knee MRI scans was good (median: 4 [IQR, 4-5]), with minimal image noise (4 [4-4]), good edge sharpness (4 [4-5]), absence of reconstruction artifacts (5 [4-5]), and high interreader agreement for all quality metrics (κ ≥ 0.83). Diagnostic performance for detecting arthroscopy-validated structural abnormalities was very good (AUC ≥ 0.81) with good to very good interreader agreement (κ ≥ 0.62). The sensitivity, specificity, accuracy, and AUC values were 89%, 87%, 88%, and 0.87 for medial meniscus tears (prevalence at arthroscopy: 78/117; 67%), 72%, 91%, 83%, and 0.82 for lateral meniscus tears (50/117; 43%), 97%, 98%, 97%, and 0.97 for anterior cruciate ligament tears (30/117; 26%), and 73%, 89%, 86%, and 0.81 for articular cartilage defects (182/702; 26%). Conclusion. Clinical 7-minute five-sequence 3-T knee MRI with deep learning reconstruction provides good to excellent diagnostic performance for detecting arthroscopy-validated internal derangement of the knee. Clinical Impact. Deep learning reconstruction enables rapid high-quality clinical 3-T knee MRI with high diagnostic performance for arthroscopy-validated abnormalities.",
+      "pub_date": "2026-Jul-15",
+      "score": 1,
+      "tags": [
+        "general diagnostic radiology"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.2214/ajr.26.35081",
+      "title": "Optimal Imaging Strategies After Negative PSMA PET/CT Results in Patients With Prostate Cancer Biochemical Recurrence: AJR Expert Panel Narrative Review.",
+      "source": "ajr",
+      "source_name": "AJR",
+      "group": "general_rad",
+      "authors": "Choi W, Almaguel F, Franquet-Elia E, Ghai S, Gorin M, Repka M, Hicks R, Turkbey B, Umutlu L, Rowe S, Behr S",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42455032/",
+      "doi": "10.2214/AJR.26.35081",
+      "abstract": "PSMA PET/CT has become widely incorporated into restaging algorithms for patients with biochemical recurrence (BCR) of prostate cancer, defined as a rising PSA level after attempted curative therapy. A substantial proportion of patients with BCR demonstrate no detectable disease on PSMA PET/CT. In these patients, management remains challenging as clinicians must balance risks of undertreatment of occult disease and potential morbidity of empiric salvage therapies with a potential missed therapeutic window from further diagnostic workup. Guidelines recommend not withholding salvage radiation therapy based on negative PSMA PET/CT results. In practice, additional imaging is frequently pursued to attempt to localize disease before salvage treatment. This AJR Expert Panel Narrative Review examines the available evidence addressing the ongoing uncertainty surrounding optimal imaging strategies and related management after a negative PSMA PET/CT examination in patients with BCR. We review performance characteristics of initial and repeat PSMA PET/CT examinations, explore prognostic factors that may guide imaging timing and selection, and evaluate the role of radiotracers other than PSMA and modalities other than PET. Based on the presented information, we provide consensus statements for imaging strategies emphasizing PSA kinetics and tumor biology while acknowledging areas where additional data are needed for informed clinical decision-making.",
+      "pub_date": "2026-Jul-15",
+      "score": 1,
+      "tags": [
+        "design:guideline"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.2214/ajr.26.35325",
+      "title": "FFRCT Analysis Rejections: Comparison of Frequency and Associated Factors Between Two CT Scanners.",
+      "source": "ajr",
+      "source_name": "AJR",
+      "group": "general_rad",
+      "authors": "Balasubramanian S, Rai A, Basunia A, Faisal J, Randazzo M",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42455033/",
+      "doi": "10.2214/AJR.26.35325",
+      "abstract": "",
+      "pub_date": "2026-Jul-15",
+      "score": 1,
+      "tags": [
+        "design:RCT"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
       "item_id": "doi:10.1109/jbhi.2026.3712750",
       "title": "Foundation Models Meet Musculoskeletal Digital Twins: Uncertainty-Aware Early Detection of Subclinical Cartilage Damage via Cross-Modal Transfer Learning.",
       "source": "msk_imaging",
@@ -3039,7 +3450,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -3066,7 +3477,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": true
     },
@@ -3093,7 +3504,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": true
     },
@@ -3120,7 +3531,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -3147,7 +3558,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -3174,7 +3585,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -3255,7 +3666,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -3336,7 +3747,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": true
     },
@@ -3390,7 +3801,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -3417,7 +3828,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": true
     },
@@ -3471,7 +3882,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -3498,7 +3909,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -3579,7 +3990,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -3633,7 +4044,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -3660,7 +4071,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": true,
       "oaNew": false
     },
@@ -3688,7 +4099,7 @@
       "sfx_url": "",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-09",
-      "isNew": true,
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -3714,8 +4125,8 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
+      "last_seen": "2026-07-15",
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -3741,8 +4152,8 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
+      "last_seen": "2026-07-15",
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -3768,8 +4179,8 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
+      "last_seen": "2026-07-15",
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -3796,8 +4207,8 @@
       "sfx_url": "",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-09",
-      "isNew": true,
-      "oaNew": true
+      "isNew": false,
+      "oaNew": false
     },
     {
       "item_id": "doi:10.2174/0115672026472455260618062045",
@@ -3823,7 +4234,7 @@
       "sfx_url": "",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-09",
-      "isNew": true,
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -3849,8 +4260,8 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-14",
-      "isNew": true,
+      "last_seen": "2026-07-15",
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -3877,7 +4288,7 @@
       "sfx_url": "",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-13",
-      "isNew": true,
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -3957,7 +4368,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4065,7 +4476,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05281-5",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4092,7 +4503,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05264-6",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4119,7 +4530,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05288-y",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4146,7 +4557,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05284-2",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4173,7 +4584,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.7759/cureus.110071",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4200,7 +4611,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3400/avd.oa.22-00112",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4227,7 +4638,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-023-03496-w",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4254,7 +4665,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jaccas.2026.108802",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4308,7 +4719,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1177/23259671261449169",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4335,7 +4746,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04515-2",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4470,7 +4881,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02318-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4497,7 +4908,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02337-x",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4524,7 +4935,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02333-1",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4551,7 +4962,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02344-y",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4578,7 +4989,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02342-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4605,7 +5016,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02331-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4632,7 +5043,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02320-6",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4794,7 +5205,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2214/AJR.26.35397",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4875,7 +5286,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250175",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
@@ -4902,7 +5313,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250173",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "isNew": false,
       "oaNew": false
     },
