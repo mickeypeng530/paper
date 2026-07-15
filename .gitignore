@@ -20,6 +20,3 @@ Thumbs.db
 # 摘要工作檔(每批暫時產生)
 _to_summarize.json
 summaries.json
-
-# ⭐ 下載器的已下載去重狀態(本機,單機用)
-download_state.json

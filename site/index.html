@@ -87,6 +87,7 @@
   .act.on-bad{background:var(--bad);border-color:var(--bad);color:#fff}
   .act.on-warn{background:var(--warn);border-color:var(--warn);color:#111}
   .act.on-star{background:#e8b923;border-color:#e8b923;color:#1a1a1a}
+  .act.on-done{background:var(--good);border-color:var(--good);color:#fff}
   .empty{text-align:center;color:var(--muted);padding:50px 0}
 
   @media (max-width:600px){
@@ -145,7 +146,7 @@ import { getDatabase, ref, onValue, update }
   from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
 // ── 版號:每次改前端就手動 bump,手機一看就知有沒有載到最新(對抗快取) ──
-const APP_VERSION = "v4 · 2026-07-15";
+const APP_VERSION = "v5 · 2026-07-15";
 for (const id of ["ver","verLogin"]) {
   const el = document.getElementById(id);
   if (el) el.textContent = APP_VERSION;
@@ -341,7 +342,7 @@ function card(p){
         <button class="act a-up ${us.vote===1?"on-good":""}">👍</button>
         <button class="act a-down ${us.vote===-1?"on-bad":""}">👎</button>
         <button class="act a-flag ${us.flag?"on-warn":""}">🚩</button>
-        <button class="act a-star ${us.star?"on-star":""}">${us.star?"★ 已收":"⭐ 收wiki"}</button>
+        <button class="act a-star ${us.downloaded?"on-done":us.star?"on-star":""}">${us.downloaded?"✓ 已收錄":us.star?"★ 已收":"⭐ 收wiki"}</button>
       </div>
     </div>
   </div>`;

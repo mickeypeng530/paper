@@ -10,7 +10,9 @@ OA 連結來源:優先讀 paper_radar.db 的 oa_pdf_url(enrich.py 每日已算);
 resolve_oa 兜底(太新、enrich 還沒輪到的 star)。下載後驗 %PDF magic byte —— 下載端要拿到
 真 bytes,故嚴格驗證(不同於 enrich.py 的寬鬆「可達性」判定,那層只要可展示連結)。
 
-去重:download_state.json 記已下載的 DOI(wiki 把 new/→raw/ 封存後也不會被重抓)。
+去重 + 跨裝置狀態:成功後回寫 Firebase userState.downloaded=true(admin 繞 rules),
+既是去重依據(wiki 把 new/→raw/ 封存後也不會被重抓),前端也據此把 ⭐ 顯示成「✓ 已收錄」。
+非 OA 的不標 downloaded → 下次會重試(哪天該篇開放 OA 就抓到)。
 
 Usage:
     python download_starred.py [--db paper_radar.db] [--config config.yaml]
@@ -30,7 +32,6 @@ from enrich import resolve_oa      # 重用 enrich 的多來源 OA 解析(live f
 SCRIPT_DIR = Path(__file__).parent
 DEFAULT_DB_URL = "https://income-41a40-default-rtdb.firebaseio.com"
 DEFAULT_WIKI_NEW = Path.home() / "Claude_Work" / "LLM wiki" / "new"
-STATE_FILE = SCRIPT_DIR / "download_state.json"
 BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 
@@ -80,27 +81,23 @@ def collect_starred(db_url):
     for uid, items in (us or {}).items():
         for key, v in (items or {}).items():
             if isinstance(v, dict) and v.get("star"):
-                out.append(dict(doi=(v.get("doi") or "").strip(),
-                                title=v.get("title") or "", key=key))
+                out.append(dict(uid=uid, key=key,
+                                doi=(v.get("doi") or "").strip(),
+                                title=v.get("title") or "",
+                                downloaded=bool(v.get("downloaded"))))
     return out
+
+
+def mark_downloaded(uid, key):
+    """回寫 userState.downloaded=true(admin 繞 rules,只 update 這兩欄不覆蓋 star/vote/…)。
+       這是跨裝置的權威「已收錄」狀態,前端據此把 ⭐ 顯示成 ✓ 已收錄。"""
+    db.reference(f"paperRadar/userState/{uid}/{key}").update(
+        {"downloaded": True, "downloaded_at": datetime.now(timezone.utc).isoformat()})
 
 
 def db_oa_url(con, doi):
     row = con.execute("SELECT oa_pdf_url FROM papers WHERE doi=?", (doi,)).fetchone()
     return row[0] if row and row[0] else None
-
-
-def load_state():
-    if STATE_FILE.exists():
-        try:
-            return json.load(open(STATE_FILE, encoding="utf-8"))
-        except Exception:
-            return {}
-    return {}
-
-
-def save_state(state):
-    json.dump(state, open(STATE_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 
 def main():
@@ -135,24 +132,18 @@ def main():
         print("(前端還沒有標 ⭐ 的論文)")
         return
 
-    state = load_state()
     con = sqlite3.connect(args.db)
     stats = dict(downloaded=0, already=0, no_oa=0, no_doi=0, failed=0)
 
     for i, s in enumerate(starred, 1):
         doi, title = s["doi"], s["title"]
         head = f"[{i}/{len(starred)}] {title[:60]}"
+        if s["downloaded"] and not args.redo:   # 去重:Firebase downloaded flag 為權威
+            stats["already"] += 1
+            continue
         if not doi:
             print(f"{head}\n      ⚠ 無 DOI,無法 OA 下載 → 手動補")
             stats["no_doi"] += 1
-            continue
-        if not args.redo and doi in state:
-            stats["already"] += 1
-            continue
-        target = inbox / safe_name(doi)
-        if not args.redo and target.exists():
-            state.setdefault(doi, dict(at=None, file=target.name))
-            stats["already"] += 1
             continue
 
         # OA 連結:先 DB(enrich 已算),再 live 兜底
@@ -162,7 +153,7 @@ def main():
         print(f"{head}\n      DOI {doi}")
         if not url:
             print("      ✗ 缺全文(非 OA 或無可達 PDF)→ 手動補進 new/")
-            stats["no_oa"] += 1
+            stats["no_oa"] += 1     # 不標 downloaded → 下次會重試(哪天開放 OA 就抓到)
             continue
         if args.dry_run:
             print(f"      [dry-run] 會抓: {url}")
@@ -172,13 +163,12 @@ def main():
         if not pdf:
             stats["failed"] += 1
             continue
+        target = inbox / safe_name(doi)
         target.write_bytes(pdf)
-        state[doi] = dict(at=datetime.now(timezone.utc).isoformat(), file=target.name)
-        print(f"      ✓ 存 → new/{target.name} ({len(pdf)} bytes)")
+        mark_downloaded(s["uid"], s["key"])     # 回寫 Firebase → 前端跨裝置變 ✓ 已收錄
+        print(f"      ✓ 存 → new/{target.name} ({len(pdf)} bytes) · 已標記 downloaded")
         stats["downloaded"] += 1
 
-    if not args.dry_run:
-        save_state(state)
     con.close()
 
     print(f"\n{'='*56}")
