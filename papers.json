@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20 23:51",
+  "updated": "2026-07-21 23:51",
   "topic_groups": {
     "general_rad": {
       "label": "綜合放射(高分刊)",
@@ -23,8 +23,8 @@
     }
   },
   "counts": {
-    "total_db": 532,
-    "exported": 222
+    "total_db": 560,
+    "exported": 234
   },
   "papers": [
     {
@@ -53,7 +53,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2024.04.018",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -113,7 +113,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04502-7",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -143,7 +143,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-026-04504-5",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -172,7 +172,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2106/JBJS.ST.25.00023",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -201,7 +201,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04188-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -260,7 +260,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fradi.2026.1753020",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -288,7 +288,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fonc.2026.1715384",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -346,7 +346,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2025.02.031",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -374,7 +374,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04243-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -402,8 +402,65 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/radiol.253312",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1007/s00270-026-04531-2",
+      "title": "Minimally Invasive Treatment of Aneurysmal Bone Cysts Utilizing a Modified Sclerograft Technique.",
+      "source": "cvir",
+      "source_name": "CVIR (Cardiovasc Intervent Radiol)",
+      "group": "ir_vascular",
+      "authors": "Rajeswaran S, Balu A, Baker J, Ness J, Variyam D, Attar S, Peabody T",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42477120/",
+      "doi": "10.1007/s00270-026-04531-2",
+      "abstract": "Aneurysmal bone cysts (ABCs) are locally aggressive expansile bone tumors that typically present near the metaphysis and are commonly encountered in the pediatric population. This study presents the results of a single staged procedure, which is a modification of the Sclerograft procedure (chemical sclerotherapy combined with regenerative bone grafting) used to treat unicameral bone cysts (UBCs), as an alternative treatment paradigm. This retrospective, single-institution study included patients with MRI-confirmed primary aneurysmal bone cysts of the appendicular skeleton treated between 2020 and 2025. Eligible patients underwent mechanical disruption with doxycycline sclerotherapy (± cryoablation) and regenerative bone grafting. Demographics, lesion characteristics, prior treatments, imaging, and clinical outcomes were analyzed. The final cohort included 27 patients (15 females, 12 males) with a mean age of 10.6 years. The primary outcome was the reintervention rate. Patients underwent a median of 1 procedure (range 1-3; mean 1.33) over a median follow-up of 1.88 years (range 0.5-5.8 years). 7 of 27 (25.9%) required at least one additional procedure due to radiographic (Modified Neer Grade 3-4) and symptomatic recurrence. Median time to retreatment was 12.2 months (IQR 6.8-19.4). Radiographs were the primary follow-up imaging modality (92.6%). The modified Sclerograft technique is a feasible, single-session treatment option for primary aneurysmal bone cysts with promising results that warrant further study as a possible alternative to the historical paradigm of serial sclerotherapy. Utilizing regenerative bone graft facilitates bone formation and permits the majority of follow-up to be performed with plain radiographs.",
+      "pub_date": "2026-Jul-20",
+      "score": 5,
+      "tags": [
+        "IR technique",
+        "MSK tumor/lesion ablation"
+      ],
+      "category": "recommended",
+      "oa_status": "closed",
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1007/s00270-026-04538-9",
+      "title": "Commentary: Genicular Artery Embolization using Imipenem/Cilastatin vs. Microsphere for Knee Osteoarthritis (GAUCHO): 12-Month Clinical Results of a Single-blind Randomized Controlled Trial.",
+      "source": "cvir",
+      "source_name": "MSK 栓塞 / TAME / GAE",
+      "group": "ir_msk",
+      "authors": "Ahmed O, Alkhani L",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42477121/",
+      "doi": "10.1007/s00270-026-04538-9",
+      "abstract": "",
+      "pub_date": "2026-Jul-20",
+      "score": 5,
+      "tags": [
+        "MSK embolization (TAME/GAE)",
+        "design:randomized controlled",
+        "osteoarthritis / joint"
+      ],
+      "category": "recommended",
+      "oa_status": "closed",
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
       "oaNew": false
     },
     {
@@ -459,7 +516,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1177/23259671251337093",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -516,7 +573,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.clinimag.2026.110877",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -572,7 +629,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -600,7 +657,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": true
     },
@@ -629,7 +686,7 @@
       "sfx_url": "",
       "first_seen": "2026-07-13",
       "last_seen": "2026-07-14",
-      "isNew": true,
+      "isNew": false,
       "oaNew": false
     },
     {
@@ -656,7 +713,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -713,7 +770,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -741,7 +798,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.52965/001c.163034",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -769,7 +826,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2147/DDDT.S601168",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -797,7 +854,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.knee.2022.12.008",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -825,7 +882,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.fas.2024.07.009",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -853,7 +910,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04144-1",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -881,7 +938,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jvir.2026.108803",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -937,7 +994,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3390/healthcare14111562",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -965,7 +1022,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1093/jscr/rjag439",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -1026,6 +1083,116 @@
       "oaNew": false
     },
     {
+      "item_id": "doi:10.1038/s41598-026-62865-w",
+      "title": "The value of ultrasound semi-quantitative scoring in the clinical evaluation of acute gouty arthritis with normal and elevated serum uric acid.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Zhang L, Yang T, Ge J",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42477382/",
+      "doi": "10.1038/s41598-026-62865-w",
+      "abstract": "This study aimed to evaluate and compare the differences in musculoskeletal ultrasound semi-quantitative scores between acute gouty arthritis patients with normal and elevated serum uric acid levels. We prospectively evaluated 25 patients with acute gouty arthritis and normal serum uric acid, alongside 32 patients with elevated serum uric acid. Clinical data and ultrasound features (double-contour sign, tophi, aggregates, bone erosion, synovial hyperplasia, power Doppler signal, and joint effusion) were compared. Ultrasound successfully detected urate crystal deposition in 68.0% (17/25) of affected joints in the normal uric acid group. However, the elevated uric acid group showed significantly higher semi-quantitative scores for crystal deposition features, including double-contour sign, tophi, aggregates, and bone erosion (P < 0.05). Additionally, pain scores, erythrocyte sedimentation rate, and C-reactive protein levels demonstrated strong positive correlations with the semi-quantitative scores of inflammatory ultrasound features (rs = 0.738-0.861, P < 0.01). Musculoskeletal ultrasound semi-quantitative scoring can effectively assess the urate crystal deposition burden and reflect acute-phase inflammatory activity, providing valuable imaging characteristics to inform clinical evaluation during the acute phase.",
+      "pub_date": "2026-Jul-20",
+      "score": 3,
+      "tags": [
+        "MSK diagnostic imaging",
+        "osteoarthritis / joint"
+      ],
+      "category": "recommended",
+      "oa_status": "gold",
+      "oa_pdf_url": "https://doi.org/10.1038/s41598-026-62865-w",
+      "oa_first_date": "2026-07-21",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.1007/s10067-026-08299-1",
+      "title": "Risk of misclassification of rheumatoid arthritis activity in patients with depression: a prospective ultrasound study.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Tsechelidis O, Sabido-Sauri R, Attar R, Gazel U, Acikgoz S, Swami T, Sangwa S, Ivory C, Hepworth E, Aydin S",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42479265/",
+      "doi": "10.1007/s10067-026-08299-1",
+      "abstract": "Depression is common in rheumatoid arthritis (RA) and may inflate patient-reported outcomes, leading to overestimation of disease activity and misclassification of treatment response. We evaluated the impact of depression severity on RA disease activity assessment at advanced therapy initiation and at follow-up, using musculoskeletal ultrasound (US), to distinguish objective synovial inflammation from symptom-driven disease burden. We prospectively evaluated disease activity measures across depression severity categories in RA patients initiating biologic or targeted synthetic DMARD (bDMARD/tsDMARD) therapy. Depression severity was assessed using the Patient Health Questionnaire (PHQ). Clinical examination and US assessment of 36 joints were performed at baseline, three and six months. Among 164 RA patients, 110 (67.1%) had no or mild depressive symptoms, and 54 (32.9%) had moderate-to-severe depression. At baseline, patients with moderate-to-severe depression reported higher disease activity, including higher tender joint counts (13.5 vs 7; p = 0.003), higher pain VAS (7 vs 4; p < 0.001), and higher DAS28-ESR scores (5.71 vs 4.45; p = 0.005). In contrast, objective inflammatory measures were similar between groups, including swollen joint counts (6 vs 5; p = 0.742) and US synovitis scores (GLOESS: 22 vs 25; p = 0.371). At three and six months, objective disease activity improved similarly across depression groups. Subjective outcomes also improved over time, but residual tenderness and disability remained more prominent in the depression group. Depression contributes to increased symptom burden independently of inflammatory disease activity in RA. Incorporating mental health assessment alongside objective measures such as US assessment is important to avoid overestimating disease severity and misjudging treatment response. Keypoints • Depression inflates patient-reported rheumatoid arthritis disease activity without a corresponding increase in objective inflammation. • Ultrasound-detected synovitis and swollen joint counts were similar across depression severity, despite higher DAS28 and pain scores in depressed patients. • Integrating ultrasound-based clinical assessment in patients with depression may reduce disease activity misclassification and prevent inappropriate treatment escalation. Key Indexing Terms: Rheumatoid Arthritis, Depression, Ultrasonography.",
+      "pub_date": "2026-Jul-21",
+      "score": 3,
+      "tags": [
+        "MSK diagnostic imaging",
+        "osteoarthritis / joint"
+      ],
+      "category": "recommended",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1007/s00270-026-04534-z",
+      "title": "Percutaneous Cryoablation of an Intrathoracic Kidney Tumour within a Bochdalek Hernia.",
+      "source": "cvir",
+      "source_name": "CVIR (Cardiovasc Intervent Radiol)",
+      "group": "ir_vascular",
+      "authors": "Yao L, Xiang H",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42477122/",
+      "doi": "10.1007/s00270-026-04534-z",
+      "abstract": "",
+      "pub_date": "2026-Jul-20",
+      "score": 3,
+      "tags": [
+        "IR technique"
+      ],
+      "category": "recommended",
+      "oa_status": "closed",
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1007/s00270-026-04537-w",
+      "title": "Computed Tomography-Guided Microwave Ablation of Hepatic Hydatid Cysts: Single-Centre Experience Focusing Upon Efficacy and Safety.",
+      "source": "cvir",
+      "source_name": "CVIR (Cardiovasc Intervent Radiol)",
+      "group": "ir_vascular",
+      "authors": "Franke J, Giannakis A, Moschovaki-Zeiger O, Charalampopoulos G, Arkoudis N, Velonakis G, Filippiadis D",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42477123/",
+      "doi": "10.1007/s00270-026-04537-w",
+      "abstract": "",
+      "pub_date": "2026-Jul-20",
+      "score": 3,
+      "tags": [
+        "IR technique"
+      ],
+      "category": "recommended",
+      "oa_status": "closed",
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
       "item_id": "doi:10.2196/96555",
       "title": "Comparison of Traditional Chinese Manual Therapy (Tuina) and Extracorporeal Shock Wave Therapy in Patients With Nonspecific Neck Pain: Protocol for a Randomized Controlled Trial.",
       "source": "msk_imaging",
@@ -1049,7 +1216,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-20",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -1076,7 +1243,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-20",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -1103,7 +1270,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-19",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -1130,7 +1297,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-18",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -1158,7 +1325,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-18",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -1185,7 +1352,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -1240,7 +1407,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": true
     },
@@ -1295,7 +1462,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -1350,7 +1517,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -1460,7 +1627,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -1488,7 +1655,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -1515,7 +1682,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -1542,7 +1709,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -1569,7 +1736,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -1652,7 +1819,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -1789,7 +1956,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05283-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -1978,7 +2145,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.22603/ssrr.2025-0359",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -2005,7 +2172,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.22603/ssrr.2025-0327",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -2032,7 +2199,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3389/fsurg.2026.1800908",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -2059,7 +2226,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1097/MD.0000000000049533",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -2086,7 +2253,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-022-04208-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -2113,7 +2280,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jse.2022.10.021",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -2140,7 +2307,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-025-04307-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -2335,6 +2502,60 @@
       "oaNew": false
     },
     {
+      "item_id": "doi:10.1007/s10396-026-01656-2",
+      "title": "Effect of shoulder internal rotation exercise with electromyographic and ultrasonographic biofeedback in patients with painful and restricted hand-behind-back motion: a randomized-controlled trial.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Goma K, Kawabata M, Sugawa K, Uchida Y, Watanabe Y, Sano Y, Uchida S, Watanabe H, Kenmoku T, Takahira N",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42479348/",
+      "doi": "10.1007/s10396-026-01656-2",
+      "abstract": "To investigate the additional effects of combining electromyography (EMG) and ultrasonography (US) biofeedback with internal rotation exercise in patients with painful and restricted hand-behind-back (HBB) movement, commonly limited by subcoracoid impingement and posterior shoulder tightness. Forty-eight patients with shoulder periarthritis or subacromial pain syndrome or rotator cuff tear were randomly assigned to a control group (CG; internal rotation exercise only), an EMG biofeedback group (EMG-G), or a combined EMG and US biofeedback group (EMG + US-G). Exercises were performed daily for 4 weeks (10 repetitions × 3 sets) under weekly physical therapy supervision. The primary outcome measure was the C7-thumb distance. Secondary outcome measures included pain; Disability of the Arm, Shoulder, and Hand (DASH) score; internal rotation strength; and shoulder range of motion. Analyses were performed using an intention-to-treat approach with multiple imputation, applying mixed-effects models. A significant group-by-time interaction was observed for the C7-thumb distance (p = 0.007), with the EMG + US-G showing greater improvement compared with the CG. Pain decreased over time, with a significant group-by-time interaction (p = 0.049); however, no significant between-group differences were detected in post hoc analyses. No significant interactions were found for DASH score, internal rotation strength, or passive range of motion (p > 0.05). The addition of EMG and US biofeedback to internal rotation exercise was associated with improvement in HBB mobility in patients with limited HBB movement. The effects on pain were modest and should be interpreted cautiously, although a potential benefit cannot be excluded.",
+      "pub_date": "2026-Jul-21",
+      "score": 2,
+      "tags": [
+        "MSK diagnostic imaging"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1007/s00256-026-05301-4",
+      "title": "Rotator cuff calcifications in pseudoxanthoma elasticum: a comparative analysis of prevalence and anatomical distribution.",
+      "source": "skeletal_radiol",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Peeters-Klerks A, de Jong P, Spiering W, Foppen W",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42479146/",
+      "doi": "10.1007/s00256-026-05301-4",
+      "abstract": "To investigate the prevalence, number, size, and distribution of rotator cuff calcifications in pseudoxanthoma elasticum (PXE) patients, relative to a comparison cohort, using computed tomography (CT). This single-center retrospective study included adult PXE patients with available low-dose full-body CT scans, compared with a cohort of adult patients undergoing full-body 18F-fluordeoxyglucose-positron emission tomography/CT (FDG-PET/CT) scans. A blinded musculoskeletal radiologist assessed the presence, number, size, and location of rotator cuff calcifications on thin-slice axial CT images (1-2 mm), with multiplanar reconstruction. The association between disease status and calcifications were analysed using age- and sex-adjusted multivariable logistic and negative binomial regression, and mixed-effects models for anatomical locations. Two hundred sixty-nine PXE patients (51 ± 14 years, 64% female) and 124 non-PXE patients (55 ± 16 years, 50% female) were included. A total of 138 calcifications in 82 PXE patients (prevalence, 30%; median largest calcification length, 6.0 mm; IQR 3.0-8.0) and 48 calcifications in 30 non-PXE patients (prevalence, 24%; median largest calcification length, 4.5 mm; IQR 3.0-7.0) were detected. No significant association between PXE and the presence (adjusted OR 1.54, 95% CI 0.92-2.63) or number of calcifications (adjusted RR 1.37, 95% CI 0.89-2.09) was found. However, PXE patients had an increased odds of intratendinous calcifications (adjusted OR 2.56, 95% CI 1.09-6.03) and a higher number of calcifications at this site (adjusted RR 2.31, 95% CI 1.18-4.52). PXE was not significantly associated with the overall presence or burden of rotator cuff calcifications, but showed an increased odds of intratendinous involvement.",
+      "pub_date": "2026-Jul-21",
+      "score": 2,
+      "tags": [
+        "MSK diagnostic imaging"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
       "item_id": "doi:10.1016/j.jvir.2026.108961",
       "title": "Ablative Radioembolization Dosing Thresholds for Glass Microspheres Predictive of Complete Imaging Response and Survival in Patients with Hepatocellular Carcinomas Larger than 4 cm: a Multi-institution Retrospective Analysis.",
       "source": "jvir",
@@ -2357,7 +2578,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-18",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -2384,7 +2605,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": true
     },
@@ -2411,7 +2632,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -2438,7 +2659,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -2465,7 +2686,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": true
     },
@@ -2492,7 +2713,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -2601,7 +2822,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -2793,7 +3014,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -3120,7 +3341,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05287-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -3148,7 +3369,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13018-026-07039-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -3284,7 +3505,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02330-4",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -3311,7 +3532,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02343-z",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -3455,6 +3676,114 @@
       "oaNew": false
     },
     {
+      "item_id": "doi:10.1038/s41598-026-61715-z",
+      "title": "Referral delays in sarcoma patients: a prospective cohort study and management guidelines.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Basile G, Barry J, Saade J, Noujaim J, Isler M, Gervais M, Doyon J, Berthiaume M, Wang P, Drapeau I, Mottard S",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42477461/",
+      "doi": "10.1038/s41598-026-61715-z",
+      "abstract": "Sarcoma management includes multidisciplinary treatment in specialized referral centers. Delays in referral and diagnosis of patients can lead to a negative impact on outcomes. This study aimed to determine timelines and factors contributing to referral delays in the sarcoma population. An analysis of a prospective cohort study was undertaken in one a tertiary sarcoma referral center between 2011 and 2020. Chart review and prospective data collection with dedicated questionnaires were collected (N = 713 patients, 455 (64%) low-grade and 258 (36%) high-grade tumors). Delays from first medical consultation to sarcoma center referral were found. Time from first medical consultation to diagnostic imaging was the most important source of delay, representing 49% (high-risk) and 42% (low-risk) of the total delay. Inadequate imaging was common and had to be repeated for 51% of MRI exams and 18% of CT scans. Referral times for most patients were unacceptably long. Sources for inappropriate delays were difficult access to imaging studies for primary care physicians and unnecessary referrals to other specialists. To address these issues, a sarcoma referral network was created. Guidelines for patient evaluation and imaging were published in order to improve patient outcomes and optimize health care resources.",
+      "pub_date": "2026-Jul-20",
+      "score": 1,
+      "tags": [
+        "design:guideline"
+      ],
+      "category": "candidate",
+      "oa_status": "gold",
+      "oa_pdf_url": "https://doi.org/10.1038/s41598-026-61715-z",
+      "oa_first_date": "2026-07-21",
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
+      "oaNew": true
+    },
+    {
+      "item_id": "doi:10.1111/ejn.70632",
+      "title": "Neurophysiological Response of Spinal Mobilization and Manipulation in Individuals With and Without Musculoskeletal Spine Disorders: A Scoping Review.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Jahromi M, Basset D, Borrell J, Sharma N",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42478286/",
+      "doi": "10.1111/ejn.70632",
+      "abstract": "Spinal manipulation (SMA) and spinal mobilization (SMO) are two of the most widely used manual therapy techniques (SMT) for spine-related musculoskeletal pain management. Although their neuromuscular effects have been reported, emerging evidence suggests that SMT may also induce neurophysiological changes within the central nervous system (CNS). This review aimed to synthesize the current literature on the neurophysiological effects of SMT with multiple brain imaging and neurophysiological methods. A scoping review was conducted according to PRISMA guidelines. Eight databases were searched for studies using brain imaging techniques (e.g., transcranial magnetic stimulation [TMS], functional magnetic resonance imaging [fMRI] or electroencephalography [EEG]) to assess the impact of SMT on healthy individuals or those with musculoskeletal spine pain. Twenty-six studies were included: eight TMS, seven fMRI, five somatosensory evoked potential (SEP) and six with other imaging methods (e.g., EEG, positron emission tomography [PET] or magnetic resonance spectroscopy [MRS]). Most studies reported significant postintervention neurophysiological changes, particularly in motor cortex excitability (TMS), functional connectivity (fMRI) and sensorimotor integration (SEP). However, heterogeneity in study design, manipulation protocols, imaging outcomes and timing of assessments limited generalizability of the results. Although many studies reported reductions in pain intensity, none of them linked cortical changes directly to clinical improvements. Overall, SMT can induce changes in cortical activity and connectivity, particularly in pain processing and motor control regions. However, significant methodological variation across studies limits the strength of conclusions. Future research should aim for standardized protocols and investigate the clinical significance of neurophysiological changes in large, diverse populations.",
+      "pub_date": "2026-Jul",
+      "score": 1,
+      "tags": [
+        "design:guideline"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1212/wnl.0000000000218359",
+      "title": "Pearls & Oy-sters: Acute Cerebral Occlusion due to Parosteal Osteosarcoma Embolus.",
+      "source": "msk_imaging",
+      "source_name": "MSK 影像主題",
+      "group": "msk_dx",
+      "authors": "Wang J, Yang X, He L, Hu F",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42479993/",
+      "doi": "10.1212/WNL.0000000000218359",
+      "abstract": "Tumor embolism is a rare cause of acute ischemic stroke. We present a case of a 46-year-old man with a history of distal femoral amputation 11 years prior due to parosteal osteosarcoma who developed acute onset left-sided weakness. Computed tomography (CT) angiography revealed occlusion of the right middle cerebral artery (MCA). Mechanical thrombectomy achieved recanalization and retrieved a white, gelatinous embolus. Histopathologic examination revealed atypical pleomorphic tumor cells. Immunohistochemistry demonstrated strong positivity for SATB2 and SOX9, positivity for CDK4, and a Ki-67 proliferation index of approximately 10%-20%. Fluorescence in situ hybridization (FISH) confirmed amplification of the MDM2 gene, supporting the diagnosis of metastatic dedifferentiated parosteal osteosarcoma. Postoperative MRI revealed infarcts in the right basal ganglia and temporal lobe, while chest CT showed bilateral pulmonary metastases. Transthoracic echocardiography identified a mass on the cardiac valve. This case illustrates an exceptionally rare clinical course in which a low-grade bone tumor underwent dedifferentiation after long-term survival and subsequently developed cardiopulmonary metastases. Tumor fragments arising from the valvular lesion likely entered the systemic circulation and embolized to the cerebral arteries, resulting in right MCA occlusion. Mechanical thrombectomy was pivotal not only for restoring cerebral perfusion but also for obtaining tissue for definitive histopathologic diagnosis.",
+      "pub_date": "2026-Aug-11",
+      "score": 1,
+      "tags": [
+        "design:RCT"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
+      "item_id": "doi:10.1148/radiol.252721",
+      "title": "Pulmonary Embolism Reporting and Data System (PE-RADS™) v2026 for the Diagnosis of Acute Pulmonary Embolism on CT and MR Angiography.",
+      "source": "radiology",
+      "source_name": "Radiology",
+      "group": "general_rad",
+      "authors": "Koweek L, Agarwal P, Brosnahan S, Bhalla S, Bishay V, Cronin P, François C, Giri J, Litmanovich D, Leung A, West F, Zimmerman S",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42478953/",
+      "doi": "10.1148/radiol.252721",
+      "abstract": "Pulmonary embolism (PE), defined as blockage of the pulmonary arteries, is a common and serious condition that requires accurate diagnosis and standardized reporting. Noninvasive imaging is well established for the diagnosis and management of PE and is incorporated into multiple societal guidelines. However, specific technical recommendations for the optimal interpretation and standardized reporting of CT and MR angiography remain absent. Diagnostic imaging is used to identify the presence or absence of PE and to risk-stratify patients. Evolving treatment options can be considered once an acute clot is identified, the patient's status is defined, and the patient is referred for appropriate treatment in a timely manner. Patient management for PE often involves multiple care teams, and clear and consistent communication between care teams is critical to patient care. The goal of the Pulmonary Embolism Reporting and Data System (PE-RADS) is twofold: (a) to create a standard lexicon for the description of terms used for acute PE diagnosis at CT and MR angiography and (b) to develop a structured, hierarchical reporting system that incorporates anatomic and accessory findings to classify clot location and right heart imaging features in acute PE and to assist in determining the cardiovascular status of the patient to inform next-step management. © 2026 RSNA and the American College of Chest Physicians published by Elsevier Inc. Supplemental material is available for this article. This article is a simultaneous joint publication in Radiology and CHEST. The articles are identical except for stylistic changes in keeping with each journal's style. Either version may be used in citing this article.",
+      "pub_date": "2026-Jul",
+      "score": 1,
+      "tags": [
+        "design:guideline"
+      ],
+      "category": "candidate",
+      "oa_status": null,
+      "oa_pdf_url": null,
+      "oa_first_date": null,
+      "inst_subscribed": null,
+      "inst_platforms": "",
+      "sfx_url": "",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "isNew": true,
+      "oaNew": false
+    },
+    {
       "item_id": "doi:10.7759/cureus.111128",
       "title": "Synovial Biopsy as a Diagnostic Clue for Transthyretin Amyloidosis With the Rare Tyr98Phe Variant Presenting Predominantly With Severe Musculoskeletal Manifestations.",
       "source": "msk_imaging",
@@ -3477,7 +3806,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-20",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": true
     },
@@ -3504,7 +3833,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-19",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": true
     },
@@ -3531,7 +3860,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-19",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -3558,7 +3887,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-19",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -3585,7 +3914,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-19",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": true
     },
@@ -3612,7 +3941,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-19",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": true
     },
@@ -3639,7 +3968,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-19",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -3666,7 +3995,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -3693,7 +4022,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -3774,7 +4103,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-16",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -3882,7 +4211,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -3911,7 +4240,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": true
     },
@@ -3938,7 +4267,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -3965,7 +4294,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -3992,7 +4321,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -4019,7 +4348,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -4046,7 +4375,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -4181,7 +4510,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": true
     },
@@ -4208,7 +4537,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -4235,7 +4564,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -4262,7 +4591,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": true,
       "oaNew": false
     },
@@ -4343,7 +4672,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -4478,7 +4807,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -4505,7 +4834,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -4667,7 +4996,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -4721,7 +5050,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -4748,7 +5077,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -4802,7 +5131,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -4937,7 +5266,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5045,7 +5374,7 @@
       "inst_platforms": "",
       "sfx_url": "",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5207,7 +5536,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05288-y",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5234,7 +5563,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00256-026-05284-2",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5261,7 +5590,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.7759/cureus.110071",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5288,7 +5617,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.3400/avd.oa.22-00112",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5315,7 +5644,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1007/s00270-023-03496-w",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5342,7 +5671,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1016/j.jaccas.2026.108802",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5396,7 +5725,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1177/23259671261449169",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5558,7 +5887,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02318-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5585,7 +5914,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02337-x",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5612,7 +5941,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02333-1",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5639,7 +5968,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02344-y",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5666,7 +5995,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02342-0",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5693,7 +6022,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02331-3",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5720,7 +6049,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1186/s13244-026-02320-6",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5882,7 +6211,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.2214/AJR.26.35397",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
@@ -5990,7 +6319,7 @@
       "inst_platforms": "",
       "sfx_url": "https://your-institution-sfx.example.com/SID?sid=Claude&id=doi:10.1148/rg.250173",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
       "isNew": false,
       "oaNew": false
     },
